@@ -5,6 +5,7 @@ C:\dev\dimadev\Dimadev.Core\obj\Debug\net8.0\Dimadev.Core.GeneratedMSBuildEditor
 C:\dev\dimadev\Dimadev.Core\obj\Debug\net8.0\Dimadev.Core.AssemblyInfoInputs.cache
 C:\dev\dimadev\Dimadev.Core\obj\Debug\net8.0\Dimadev.Core.AssemblyInfo.cs
 C:\dev\dimadev\Dimadev.Core\obj\Debug\net8.0\Dimadev.Core.csproj.CoreCompileInputs.cache
+C:\dev\dimadev\Dimadev.Core\obj\Debug\net8.0\Dimadev.Core.sourcelink.json
 C:\dev\dimadev\Dimadev.Core\obj\Debug\net8.0\Dimadev.Core.dll
 C:\dev\dimadev\Dimadev.Core\obj\Debug\net8.0\refint\Dimadev.Core.dll
 C:\dev\dimadev\Dimadev.Core\obj\Debug\net8.0\Dimadev.Core.pdb
