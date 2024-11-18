@@ -1,14 +1,15 @@
 ﻿using Dima.Core.Handlers;
+using Dima.Core.Requests.Categories;
 using Microsoft.AspNetCore.Components;
 using MudBlazor;
 
 namespace Dimadev.Web.Pages.Categories
 {
-    public class CreateCategoryPage : ComponentBase
+    public partial class CreateCategoryPage : ComponentBase
     {
         #region Properties
         public bool IsBusy { get; set; } = false;
-        public CreateCategoryPage InputModel { get; set; } = new();
+        public CreateCategoryRequest InputModel { get; set; } = new();
 
         #endregion
 
@@ -31,9 +32,10 @@ namespace Dimadev.Web.Pages.Categories
             try
             {
                 var result = await Handler.CreateAsync(InputModel);
-                if (result.IsSuccess)
+                if (result.IsSucess)
                 {
                     Snackbar.Add(result.Message, Severity.Success);
+                    NavigationManager.NavigateTo("/categorias");
                 }
                 else
                 {

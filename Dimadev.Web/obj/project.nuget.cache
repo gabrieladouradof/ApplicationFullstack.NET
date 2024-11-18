@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qy166n0BYsH2pcqp5+fl8dfsxHBNadW7iBT4oLwpavs4Qkzbno1rv6NC3+rICVgoNrrKdmsd3w1y9wmunKeo7w==",
+  "dgSpecHash": "+wKQEpWDMoDjmRekdfSmbViwi92L/yJ1JlYBXHJ6AsiHSupijs01BU1Tw9+SyHnIaKFLnN+/Cx6NNZLEv6ddIw==",
   "success": true,
-  "projectFilePath": "C:\\dev\\dimadev\\Dimadev.Web\\Dimadev.Web.csproj",
+  "projectFilePath": "C:\\dev\\dimadev\\dimadev.web\\Dimadev.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GabrielaDourado\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.10\\microsoft.aspnetcore.authorization.8.0.10.nupkg.sha512",
     "C:\\Users\\GabrielaDourado\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.10\\microsoft.aspnetcore.components.8.0.10.nupkg.sha512",

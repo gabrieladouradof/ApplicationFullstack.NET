@@ -4,14 +4,14 @@
 <MudText Typo="Typo.h3">Nova Categoria</MudText>
 <MudPaper Class="pa-8 mt-4">
     <EditForm Model="@InputModel" OnValidSubmit="OnValidSubmitAsync">
-        <DataAnnotationsValidator/>
+        <DataAnnotationsValidator />
 
         <MudTextField Label="Título"
                       HelperText="Campo obrigatório"
                       @bind-Value="InputModel.Title"
                       For="@(() => InputModel.Title)" />
 
-        <MudTextField Label="Descrição"
+        <MudTextField Label="Descição"
                       Lines="5"
                       HelperText="Campo obrigatório"
                       @bind-Value="InputModel.Description"

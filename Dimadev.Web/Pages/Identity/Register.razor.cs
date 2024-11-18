@@ -1,4 +1,5 @@
-﻿using Dimadev.Core.Handlers;
+﻿using Dima.Core.Requests.Categories;
+using Dimadev.Core.Handlers;
 using Dimadev.Core.Requests.Account;
 using Dimadev.Web.Security;
 using Microsoft.AspNetCore.Components;
@@ -43,6 +44,8 @@ namespace Dimadev.Web.Pages.Identity
         #endregion
 
         #region Methods
+ 
+ 
         public async Task OnValidSubmitAsync()
         {
             IsBusy = true;
@@ -52,7 +55,7 @@ namespace Dimadev.Web.Pages.Identity
                 if (result.IsSucess)
                 {
                     Snackbar.Add(result.Message, Severity.Success);
-                    NavigationManager.NavigateTo("/login");
+                    //NavigationManager.NavigateTo("/login");
                 }
                 else
                 {
