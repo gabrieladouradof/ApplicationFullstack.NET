@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Dimadev.Api",
+    "\\Dimadev.Api\\Data",
+    "\\Dimadev.Api\\Data\\Mappings",
+    "\\Dimadev.Api\\Handlers",
+    "\\Dimadev.Core",
+    "\\Dimadev.Core\\Enums",
+    "\\Dimadev.Core\\Models"
+  ],
+  "SelectedNode": "\\Dimadev.Api\\Handlers\\TransactionHandler.cs",
+  "PreviewInSolutionExplorer": false
+}
