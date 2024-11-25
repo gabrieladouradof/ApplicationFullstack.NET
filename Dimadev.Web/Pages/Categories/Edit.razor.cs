@@ -41,6 +41,5 @@ namespace Dimadev.Web.Pages.Categories
         }
         #endregion
 
-
     }
 }

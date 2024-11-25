@@ -17,8 +17,6 @@ namespace Dima.Api.Handlers
                 request.Amount *= -1;
 
             try
-
-
             {
                 var transaction = new Transaction
                 {
@@ -41,7 +39,6 @@ namespace Dima.Api.Handlers
             {
                 return new Response<Transaction>(null, 500, $"Erro ao criar a transacao: {ex.Message}");
             }
-
         }
         public async Task<Response<Transaction?>> DeleteAsync(DeleteTransactionRequest request)
         {

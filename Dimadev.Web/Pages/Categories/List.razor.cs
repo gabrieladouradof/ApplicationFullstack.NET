@@ -18,6 +18,9 @@ namespace Dimadev.Web.Pages.Categories
         #region Services
         [Inject]
         public ISnackbar Snackbar { get; set; } = null!;
+        [Inject]
+        public IDialogService DialogService { get; set; } = null!;
+        [Inject]
         public ICategoryHandler Handler { get; set; } = null!;
 
         #endregion
@@ -96,7 +99,6 @@ namespace Dimadev.Web.Pages.Categories
             return false;
        };
         #endregion
-
 
     }
 }

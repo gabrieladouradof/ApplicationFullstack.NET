@@ -6,7 +6,7 @@
   <MudButton 
     Variant="Variant.Filled" 
     Color="Color.Primary"
-    StartIcon="@Icons.TwoTone.Add"
+    StartIcon="@Icons.Material.Filled.Add"
     Href="/categorias/adicionar">
     NOVA CATEGORIA
 </MudButton>
@@ -21,7 +21,7 @@
     <ToolBarContent>
         <MudText Typo="Typo.h6">Categorias</MudText>
         <MudSpacer/>
-        <MudTextField>
+        <MudTextField
             @bind-Value="SearchTerm"
             Placeholder="Filtrar..."
             Adornment="Adornment.Start"

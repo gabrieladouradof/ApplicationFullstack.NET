@@ -101,7 +101,7 @@ namespace Dima.Api.Handlers
             }
         }
 
-        public async Task<Response<List<Category>>> GetAllAsync(GetAllCategoriesRequest request)
+        public async Task<PagedResponse<List<Category>>> GetAllAsync(GetAllCategoriesRequest request)
         {
             try
             {

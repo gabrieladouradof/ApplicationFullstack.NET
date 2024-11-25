@@ -877,23 +877,23 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-QNy567itNlWpuud85SXSD4P37bH9kjBo0QYdibGA2+I=",
+      "hash": "sha256-3z16mRcRxc8mTtu+PViOUQC0w5QrdBzJU6TuqcKrF5A=",
       "url": "_framework\/Dimadev.Core.wasm"
     },
     {
-      "hash": "sha256-ZoET2oGxvQxWhoR53IhKoqYSt0T89xpe\/RNthNq1nQ8=",
+      "hash": "sha256-0dQ4cY603OdFTpW+QYwudVRs1VOObKNl8t4EjXa4lwI=",
       "url": "_framework\/Dimadev.Core.pdb"
     },
     {
-      "hash": "sha256-zm8njMXoTL2OYXOWZK7YfWoUffaUS60wWN4gOKvU0Ec=",
+      "hash": "sha256-qlqpytWSTJnEZcUyTjgh1+Az7WJTzn97Zx1cNQG56XQ=",
       "url": "_framework\/Dimadev.Web.wasm"
     },
     {
-      "hash": "sha256-+8WaIGdhtvT+Taj8WIQuWvm9qyujwqm8ajhPKMEZdGI=",
+      "hash": "sha256-d5UGDpphfRfqH3WJ0ldzh6dzXfkQLJ9CCLAimgJNPBc=",
       "url": "_framework\/Dimadev.Web.pdb"
     },
     {
-      "hash": "sha256-OMWXjTGZKo3pZyQloOMvL12AgNiuG+TSuMChn1iJhiE=",
+      "hash": "sha256-mkKhay\/7KPWPpsHhhhqzksTE3sCDoEJpdKyiTv7y1K0=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -909,5 +909,5 @@
       "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     }
   ],
-  "version": "5\/wa+SD1"
+  "version": "VDdwQ3BX"
 };
