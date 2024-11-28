@@ -35,7 +35,7 @@ var app = builder.Build();
 if(app.Environment.IsDevelopment())
     app.ConfigureDevEnvironmet();
 
-app.UseCors(ApiConfiguration.CorsPolicyName);
+app.UseCors("CorsPolicy");
 app.UseSecurity();
 app.MapEndpoints();
 

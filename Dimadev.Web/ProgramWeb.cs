@@ -32,7 +32,7 @@ builder.Services.AddMudServices();
 
 builder.Services.AddHttpClient(Configuration.HttpClientName, opt =>
 {
-    opt.BaseAddress = new Uri(Configuration.BackendUrl);
+    opt.BaseAddress = new Uri("http://localhost:5252");
 
 }).AddHttpMessageHandler<CookieHandler>();
 

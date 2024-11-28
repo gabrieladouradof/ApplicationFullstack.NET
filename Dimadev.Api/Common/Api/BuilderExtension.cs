@@ -40,18 +40,16 @@ namespace Dimadev.Api.Common.Api
 
         public static void AddCrossOrigin (this WebApplicationBuilder builder) 
         {
-            //CORS
-            builder.Services.AddCors(
-               options => options.AddPolicy(
-                   ApiConfiguration.CorsPolicyName,
-                   policy => policy.WithOrigins([
-                       Configuration.BackendUrl,
-                       Configuration.FrontendUrl
-                       ])
-                   .AllowAnyMethod()
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.SetIsOriginAllowed(_ => true)
+                    .AllowAnyMethod()
                    .AllowAnyHeader()
                    .AllowCredentials()
-                   ));
+                  );
+
+            });
         }
         public static void AddServices (this WebApplicationBuilder builder) 
         {

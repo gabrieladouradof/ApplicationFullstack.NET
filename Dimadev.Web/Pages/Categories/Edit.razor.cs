@@ -1,6 +1,7 @@
 ﻿using Dima.Core.Handlers;
 using Dima.Core.Requests.Categories;
 using Microsoft.AspNetCore.Components;
+using MudBlazor;
 
 namespace Dimadev.Web.Pages.Categories
 {
@@ -15,6 +16,8 @@ namespace Dimadev.Web.Pages.Categories
         #endregion
 
         #region Services
+        [Inject]
+        public ISnackbar Snackbar { get; set; } = null!;
         [Inject]
         public NavigationManager NavigationManager { get; set; } = null!;
         [Inject]
@@ -40,6 +43,27 @@ namespace Dimadev.Web.Pages.Categories
 
         }
         #endregion
+        public async Task OnValidSubmitAsync()
+        {
+            IsBusy = true;
 
+            try
+            {
+                var result = await Handler.UpdateAsync(InputModel);
+                if (result.IsSucess)
+                {
+                    Snackbar.Add("Categoria atualizada", Severity.Success);
+                    NavigationManager.NavigateTo("/categorias");
+                }
+            }
+            catch (Exception ex)
+            {
+                Snackbar.Add(ex.Message, Severity.Error);
+            }
+            finally
+            {
+                IsBusy = false;
+            }
+        }
     }
 }

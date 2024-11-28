@@ -51,7 +51,7 @@ namespace Dimadev.Web.Pages.Identity
                 var result = await Handler.LoginAsync(InputModel);
                 if (result.IsSucess)
                 {              
-                    NavigationManager.NavigateTo("/home");
+                    NavigationManager.NavigateTo("/");
                 }
                 else
                 {

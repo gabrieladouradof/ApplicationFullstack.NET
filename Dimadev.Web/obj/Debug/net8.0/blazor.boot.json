@@ -1,21 +1,20 @@
 {
   "mainAssemblyName": "Dimadev.Web",
   "resources": {
-    "hash": "sha256-OCe3YNTGWhLjamBm4OShpzabCQzkuXu1hVMutwNIjtk=",
+    "hash": "sha256-Kp/OI6AxnV1fubwfXR9QwwCHQUWLkB68FvHqf3DfriU=",
     "jsModuleNative": {
-      "dotnet.native.8.0.10.dttvpwtuld.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
+      "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.8.0.10.39apnb5yx8.js": "sha256-FjrgL9dY6dc2yUoXDWowSfachSgM8O29qUMWDQOJKRI="
+      "dotnet.runtime.js": "sha256-nam8JTYKjhMKOTg6+FlihYP6JpWPGe3jjM9fiUFWzhY="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-4ymhDbG5daKbi9yL1L574jRRiFFQhiOrDJU5YAYALU4="
+      "dotnet.native.wasm": "sha256-1NJsNYy4gznvjVwzcG5w3Cl50enK1KB/7cKBMY+6jz4="
     },
     "icu": {
-      "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
-      "icudt_EFIGS.dat": "sha256-8fItetYY8kQ0ww6oxwTLiT3oXlBwHKumbeP2pRF4yTc=",
-      "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
+      "icudt.dat": "sha256-tO5O5YzMTVSaKBboxAqezOQL9ewmupzV2JrB5Rkc8a4="
     },
+    "coreAssembly": {},
     "assembly": {
       "Microsoft.AspNetCore.Authorization.wasm": "sha256-qvUVaVXCx0vIwC1ftYywcGopJB8y43BbfcCt3G9PQgM=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-xr0Ov2b8dQS8xDDq0cDAHAiTk03Nhy7Nb/TaMeGY25U=",
@@ -217,12 +216,12 @@
       "mscorlib.wasm": "sha256-KvqZaNpjwhrOuzE4b4aMFsI+VUTyiWfoDI4zn4l9BM8=",
       "netstandard.wasm": "sha256-v+s7sWxtOM6bnOvC0jFrtnm6uMfbDymwl2nHNgbS2LM=",
       "System.Private.CoreLib.wasm": "sha256-pklll63uFQoY6vaD3vbluS9osYiJWLLLmob1yHFgepI=",
-      "Dimadev.Core.wasm": "sha256-Um5OgXhlkSsYooszvPsCO9PqDRnbaulC+VJ4uQkKIcI=",
-      "Dimadev.Web.wasm": "sha256-qlqpytWSTJnEZcUyTjgh1+Az7WJTzn97Zx1cNQG56XQ="
+      "Dimadev.Core.wasm": "sha256-4y1DmHJryoTNltbSJGCIm6DDO3XYjoGaJjWZmdxnxbM=",
+      "Dimadev.Web.wasm": "sha256-qQ29g/REecZz8DX7V91ho2x4cd4lidDLKehfdgO9nQk="
     },
     "pdb": {
-      "Dimadev.Core.pdb": "sha256-ytekhor1XAmVgO2fsJTLb2ouab1yiWcFFq8/piDdpIE=",
-      "Dimadev.Web.pdb": "sha256-d5UGDpphfRfqH3WJ0ldzh6dzXfkQLJ9CCLAimgJNPBc="
+      "Dimadev.Core.pdb": "sha256-xIik6ETQ86gJ787bZpdLzXFG1zdVJCGgKjFSNVswLZ0=",
+      "Dimadev.Web.pdb": "sha256-KD3/4QHnCH0S8Zm6S42uNpdupi+XJ1T6wAQ4gTpg3fU="
     }
   },
   "cacheBootResources": true,
@@ -230,7 +229,7 @@
   "appsettings": [
     "../appsettings.json"
   ],
-  "globalizationMode": "sharded",
+  "globalizationMode": "all",
   "extensions": {
     "blazor": {}
   }

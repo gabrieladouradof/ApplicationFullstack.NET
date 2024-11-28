@@ -55,7 +55,7 @@ namespace Dimadev.Web.Pages.Identity
                 if (result.IsSucess)
                 {
                     Snackbar.Add(result.Message, Severity.Success);
-                    //NavigationManager.NavigateTo("/login");
+                    NavigationManager.NavigateTo("/login");
                 }
                 else
                 {
