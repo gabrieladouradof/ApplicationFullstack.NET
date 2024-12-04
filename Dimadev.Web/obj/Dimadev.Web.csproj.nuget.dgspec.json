@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\dimadev\\dimadev.web\\Dimadev.Web.csproj": {}
+    "C:\\dev\\dimadev\\Dimadev.Web\\Dimadev.Web.csproj": {}
   },
   "projects": {
     "C:\\dev\\dimadev\\Dimadev.Core\\Dimadev.Core.csproj": {
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\dev\\dimadev\\dimadev.web\\Dimadev.Web.csproj": {
+    "C:\\dev\\dimadev\\Dimadev.Web\\Dimadev.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\dimadev\\dimadev.web\\Dimadev.Web.csproj",
+        "projectUniqueName": "C:\\dev\\dimadev\\Dimadev.Web\\Dimadev.Web.csproj",
         "projectName": "Dimadev.Web",
-        "projectPath": "C:\\dev\\dimadev\\dimadev.web\\Dimadev.Web.csproj",
+        "projectPath": "C:\\dev\\dimadev\\Dimadev.Web\\Dimadev.Web.csproj",
         "packagesPath": "C:\\Users\\GabrielaDourado\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\dimadev\\dimadev.web\\obj\\",
+        "outputPath": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

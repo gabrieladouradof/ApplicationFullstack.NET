@@ -4276,11 +4276,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\dimadev\\dimadev.api\\Dimadev.Api.csproj",
+      "projectUniqueName": "C:\\dev\\dimadev\\Dimadev.api\\Dimadev.Api.csproj",
       "projectName": "Dimadev.Api",
-      "projectPath": "C:\\dev\\dimadev\\dimadev.api\\Dimadev.Api.csproj",
+      "projectPath": "C:\\dev\\dimadev\\Dimadev.api\\Dimadev.Api.csproj",
       "packagesPath": "C:\\Users\\GabrielaDourado\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\dimadev\\dimadev.api\\obj\\",
+      "outputPath": "C:\\dev\\dimadev\\Dimadev.api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4389,7 +4389,7 @@
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'System.Text.Json' 8.0.4 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
+      "message": "Package 'System.Text.Json' 8.0.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
       "libraryId": "System.Text.Json",
       "targetGraphs": [
         "net8.0"

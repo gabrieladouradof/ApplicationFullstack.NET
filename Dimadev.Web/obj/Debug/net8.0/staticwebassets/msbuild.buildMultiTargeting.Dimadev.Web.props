@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Dimadev.Web.props" />
-</Project>

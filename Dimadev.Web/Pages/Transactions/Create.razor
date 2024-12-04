@@ -1,0 +1,38 @@
+﻿@page "/transacoes"
+@inherits CreateTransactionPage
+
+<MudText Typo="Typo.h3">Novo Lancamento</MudText>
+
+<MudPaper Class="pa-8 mt-4">
+
+    <MudTextField Label="Título"
+                  T="decimal"
+                  Format="C"
+                  Variant="Variant.Text"
+                  HelperText="Informe o valor que será pago ou recebido"
+                  @bind-Value="InputModel.Title"
+                  For="@(() => InputModel.Title)" />
+
+    <MudTextField Label="Quanto?"
+                  T="decimal"
+                  Format="C"
+                  Variant="Variant.Text"
+                  HelperText="Informe o valor que será pago ou recebido"
+                  @bind-Value="InputModel.Amount"
+                  For="@(() => InputModel.Amount)" />
+
+    <MudTextField Label="Quando?"
+                  T="decimal"
+                  HelperText="Selecione a data que voce vai pagar"
+                  @bind-Value="InputModel.Amount"
+                  For="@(() => InputModel.Amount)" />
+
+                  <MudSelect T="ETransactionType"
+                      Label ="Tipo de Movimentacao"
+                      AnchorOrigin="Origin.BottomCenter"
+                      @bind-Value="InputModel.Type">
+                      ></MudSelect>
+
+                    
+
+                  </MudPaper>
