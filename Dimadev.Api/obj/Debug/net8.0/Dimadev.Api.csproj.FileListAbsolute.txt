@@ -137,4 +137,3 @@ C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\refint\Dimadev.Api.dll
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.pdb
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.genruntimeconfig.cache
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\ref\Dimadev.Api.dll
-C:\dev\dimadev\Dimadev.api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

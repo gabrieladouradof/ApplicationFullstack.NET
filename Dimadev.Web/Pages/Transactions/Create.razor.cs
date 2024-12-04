@@ -43,6 +43,10 @@ namespace Dimadev.Web.Pages.Transactions
                     InputModel.CategoryId = Categories.FirstOrDefault()?.Id ?? 0;
                 }
             }
+            catch (Exception ex)
+            {
+                Snackbar.Add(ex.Message, Severity.Error);
+            }
         }
         #endregion
         public async Task OnValidSubmitAsync()

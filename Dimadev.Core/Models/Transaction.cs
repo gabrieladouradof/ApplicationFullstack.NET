@@ -11,7 +11,7 @@ public class Transaction
     
     public DateTime? PaidOrReceivedAt {  get; set; }
 
-    public ETransactionType Type { get; set; } = ETransactionType.WithDraw;
+    public ETransactionType Type { get; set; } = ETransactionType.Withdraw;
     public decimal Amount { get; set; }
 
     public long CategoryId { get; set; }

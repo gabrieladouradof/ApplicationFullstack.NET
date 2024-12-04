@@ -18,6 +18,14 @@ namespace Dimadev.Web.Pages.Transactions
         public int CurrentYear { get; set; } = DateTime.Now.Year;
         public int CurrentMonth { get; set; } = DateTime.Now.Month;
 
+        public int[] Years { get; set; } =
+   {
+        DateTime.Now.Year,
+        DateTime.Now.AddYears(-1).Year,
+        DateTime.Now.AddYears(-2).Year,
+        DateTime.Now.AddYears(-3).Year
+    };
+
         #endregion
 
         #region Services
@@ -27,6 +35,16 @@ namespace Dimadev.Web.Pages.Transactions
         public IDialogService DialogService { get; set; } = null!;
         [Inject]
         public ISnackbar Snackbar { get; set; } = null!;
+
+        [Inject]
+        public ITransactionHandler Handler { get; set; } = null!;
+        #endregion
+
+        #region Overrides
+
+        protected override async Task OnInitializedAsync()
+            => await GetTransactionsAsync();
+
         #endregion
 
         #region Public Methods
@@ -50,6 +68,15 @@ namespace Dimadev.Web.Pages.Transactions
 
             StateHasChanged();
         }
+
+        public Func<Transaction, bool> Filter => transaction =>
+        {
+            if (string.IsNullOrEmpty(SearchTerm))
+                return true;
+
+            return transaction.Id.ToString().Contains(SearchTerm, StringComparison.OrdinalIgnoreCase)
+                   || transaction.Title.Contains(SearchTerm, StringComparison.OrdinalIgnoreCase);
+        };
 
 
 
