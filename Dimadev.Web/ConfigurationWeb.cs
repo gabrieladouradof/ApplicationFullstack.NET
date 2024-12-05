@@ -9,25 +9,24 @@ namespace Dimadev.Web
 
         public static string BackendUrl { get; set; } = "http://localhost:5252";
 
-
-        public static MudTheme theme = new()
+        public static MudTheme Theme { get; } = new MudTheme
         {
             Typography = new Typography
             {
-                Default = new Default()
+                Default = new Default
                 {
-                    FontFamily = ["Raleway", "sans-serif"]
+                    FontFamily = new[] { "Raleway", "sans-serif" }
                 }
             },
-            PaletteLight = new PaletteLight
+            Palette = new PaletteLight
             {
                 Primary = "#1EFA2D",
+                PrimaryContrastText = new MudColor("#000000"),
                 Secondary = Colors.Pink.Darken3,
-                Background = Colors.Shades.White,
-                AppbarBackground = new MudBlazor.Utilities.MudColor("#1EFA2D"),
+                Background = Colors.Grey.Lighten4,
+                AppbarBackground = new MudColor("#1EFA2D"),
                 AppbarText = Colors.Shades.Black,
                 TextPrimary = Colors.Shades.Black,
-                PrimaryContrastText = Colors.Shades.Black,
                 DrawerText = Colors.Shades.White,
                 DrawerBackground = Colors.Green.Darken4
             },
@@ -40,7 +39,5 @@ namespace Dimadev.Web
                 PrimaryContrastText = new MudColor("#000000")
             }
         };
-
-
     }
 }

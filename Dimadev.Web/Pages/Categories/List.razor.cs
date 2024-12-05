@@ -80,7 +80,6 @@ namespace Dimadev.Web.Pages.Categories
             }
         }
 
-
         public Func<Category, bool> Filter => category =>
         {
             if (string.IsNullOrEmpty(SearchTerm))

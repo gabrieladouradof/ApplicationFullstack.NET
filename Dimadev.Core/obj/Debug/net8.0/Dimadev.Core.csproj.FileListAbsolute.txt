@@ -1,11 +1,11 @@
+C:\dev\dimadev\Dimadev.Core\bin\Debug\net8.0\Dimadev.Core.deps.json
+C:\dev\dimadev\Dimadev.Core\bin\Debug\net8.0\Dimadev.Core.dll
+C:\dev\dimadev\Dimadev.Core\bin\Debug\net8.0\Dimadev.Core.pdb
 C:\dev\dimadev\Dimadev.Core\obj\Debug\net8.0\Dimadev.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\dev\dimadev\Dimadev.Core\obj\Debug\net8.0\Dimadev.Core.AssemblyInfoInputs.cache
 C:\dev\dimadev\Dimadev.Core\obj\Debug\net8.0\Dimadev.Core.AssemblyInfo.cs
 C:\dev\dimadev\Dimadev.Core\obj\Debug\net8.0\Dimadev.Core.csproj.CoreCompileInputs.cache
 C:\dev\dimadev\Dimadev.Core\obj\Debug\net8.0\Dimadev.Core.sourcelink.json
-C:\dev\dimadev\Dimadev.Core\bin\Debug\net8.0\Dimadev.Core.deps.json
-C:\dev\dimadev\Dimadev.Core\bin\Debug\net8.0\Dimadev.Core.dll
-C:\dev\dimadev\Dimadev.Core\bin\Debug\net8.0\Dimadev.Core.pdb
 C:\dev\dimadev\Dimadev.Core\obj\Debug\net8.0\Dimadev.Core.dll
 C:\dev\dimadev\Dimadev.Core\obj\Debug\net8.0\refint\Dimadev.Core.dll
 C:\dev\dimadev\Dimadev.Core\obj\Debug\net8.0\Dimadev.Core.pdb
