@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DgNq4PNmp7EL7J1MNSrZp+le0e36hrxFGsKe20UgRio=",
+  "Hash": "oMUiWzSHB2xkvOejhAl9yHOlLnSoROX3BKdvo/RCDtc=",
   "Source": "Dimadev.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "thtbz19m72",
-      "Integrity": "797LYIWi5rLAtUKHibQmq15vbdeCtRPTVzA/zsHBf6E=",
+      "Fingerprint": "9hknzag4pc",
+      "Integrity": "k81QjyHos0P0GRtJabH+l5THpRYCdNEI/zJis25fCOg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "k9vp6sg165",
-      "Integrity": "eJ8gx6PNs9nnSfsbGxh4pU7QOdp81gbg8y/kS5hWwf8=",
+      "Fingerprint": "kl7h2s8h5a",
+      "Integrity": "uDKhoRIYMTZd5qwPTzbCJ2zElfrh+fFP05a3TeywMCA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\Dimadev.Web.pdb"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "w3rnkbbnye",
-      "Integrity": "/PiNm1Bnna8durvWP3l0dGLSiKhwOwoky5dzyUg9KA8=",
+      "Fingerprint": "gaxenc27ea",
+      "Integrity": "CKePwj7svMcZ65Jzz8j3HtudfZVTtnM5kD/+mJp4zss=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\webcil\\Dimadev.Web.wasm"
@@ -5246,7 +5246,7 @@
       "OriginalItemSpec": "C:\\dev\\dimadev\\Dimadev.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Resources.Reader.wasm"
     },
     {
-      "Identity": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\6m5cbd5my8-w3rnkbbnye.gz",
+      "Identity": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\6m5cbd5my8-gaxenc27ea.gz",
       "SourceId": "Dimadev.Web",
       "SourceType": "Computed",
       "ContentRoot": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\",
@@ -5260,8 +5260,8 @@
       "RelatedAsset": "C:\\dev\\dimadev\\Dimadev.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Dimadev.Web.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "q1gzxl5q9e",
-      "Integrity": "Ar9qrd9A3mb+xArfnuD/zOTvYZ2E+2R+OrJtohLodwk=",
+      "Fingerprint": "d3nguti7q1",
+      "Integrity": "6SrCZU1UfBZFIWiRXO5n8EmcP0H4Z73e6UviWMQUD+Y=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\dev\\dimadev\\Dimadev.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Dimadev.Web.wasm"
@@ -5624,7 +5624,7 @@
       "OriginalItemSpec": "C:\\dev\\dimadev\\Dimadev.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Emit.Lightweight.wasm"
     },
     {
-      "Identity": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\a7gl9k3fdx-thtbz19m72.gz",
+      "Identity": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\a7gl9k3fdx-9hknzag4pc.gz",
       "SourceId": "Dimadev.Web",
       "SourceType": "Computed",
       "ContentRoot": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\",
@@ -5638,8 +5638,8 @@
       "RelatedAsset": "C:\\dev\\dimadev\\Dimadev.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5nq6flcrh0",
-      "Integrity": "YS+LRVWWWMoNZxLvGZLeXMgKfsG44KeYZwWcbjNafd0=",
+      "Fingerprint": "o2dxpwbql8",
+      "Integrity": "cCnKmPlVjB8g4EK0HlNGaHxZ7MqS2sS3G/YdBXkReR4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\dev\\dimadev\\Dimadev.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -7703,7 +7703,7 @@
       "OriginalItemSpec": "C:\\dev\\dimadev\\Dimadev.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ComponentModel.EventBasedAsync.wasm"
     },
     {
-      "Identity": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\pr95mhudec-k9vp6sg165.gz",
+      "Identity": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\pr95mhudec-kl7h2s8h5a.gz",
       "SourceId": "Dimadev.Web",
       "SourceType": "Computed",
       "ContentRoot": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\",
@@ -7717,8 +7717,8 @@
       "RelatedAsset": "C:\\dev\\dimadev\\Dimadev.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Dimadev.Web.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ix9ckbkuen",
-      "Integrity": "Rh1hirYpuO5KX1uPFRDWORYyO3n68O3mvH25F/3U8IM=",
+      "Fingerprint": "11ijhowaxj",
+      "Integrity": "BXMenC5tInFKGScmP9L4bkh6m94cMb00itD/HwfLwy8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\dev\\dimadev\\Dimadev.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Dimadev.Web.pdb"
@@ -9430,7 +9430,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"797LYIWi5rLAtUKHibQmq15vbdeCtRPTVzA/zsHBf6E=\""
+          "Value": "\"k81QjyHos0P0GRtJabH+l5THpRYCdNEI/zJis25fCOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 19:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k81QjyHos0P0GRtJabH+l5THpRYCdNEI/zJis25fCOg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\a7gl9k3fdx-9hknzag4pc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000108248539"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9237"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cCnKmPlVjB8g4EK0HlNGaHxZ7MqS2sS3G/YdBXkReR4=\""
         },
         {
           "Name": "Last-Modified",
@@ -9439,45 +9478,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-797LYIWi5rLAtUKHibQmq15vbdeCtRPTVzA/zsHBf6E="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\a7gl9k3fdx-thtbz19m72.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000108236822"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9238"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"YS+LRVWWWMoNZxLvGZLeXMgKfsG44KeYZwWcbjNafd0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 19:18:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -9493,19 +9493,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"797LYIWi5rLAtUKHibQmq15vbdeCtRPTVzA/zsHBf6E=\""
+          "Value": "W/\"k81QjyHos0P0GRtJabH+l5THpRYCdNEI/zJis25fCOg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-797LYIWi5rLAtUKHibQmq15vbdeCtRPTVzA/zsHBf6E="
+          "Value": "sha256-k81QjyHos0P0GRtJabH+l5THpRYCdNEI/zJis25fCOg="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\a7gl9k3fdx-thtbz19m72.gz",
+      "AssetFile": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\a7gl9k3fdx-9hknzag4pc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9514,7 +9514,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9238"
+          "Value": "9237"
         },
         {
           "Name": "Content-Type",
@@ -9522,11 +9522,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YS+LRVWWWMoNZxLvGZLeXMgKfsG44KeYZwWcbjNafd0=\""
+          "Value": "\"cCnKmPlVjB8g4EK0HlNGaHxZ7MqS2sS3G/YdBXkReR4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 19:18:52 GMT"
+          "Value": "Thu, 05 Dec 2024 19:23:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9544,7 +9544,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YS+LRVWWWMoNZxLvGZLeXMgKfsG44KeYZwWcbjNafd0="
+          "Value": "sha256-cCnKmPlVjB8g4EK0HlNGaHxZ7MqS2sS3G/YdBXkReR4="
         }
       ]
     },
@@ -9970,7 +9970,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "71296"
+          "Value": "71500"
         },
         {
           "Name": "Content-Type",
@@ -9978,7 +9978,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eJ8gx6PNs9nnSfsbGxh4pU7QOdp81gbg8y/kS5hWwf8=\""
+          "Value": "\"uDKhoRIYMTZd5qwPTzbCJ2zElfrh+fFP05a3TeywMCA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 19:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uDKhoRIYMTZd5qwPTzbCJ2zElfrh+fFP05a3TeywMCA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Dimadev.Web.pdb",
+      "AssetFile": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\pr95mhudec-kl7h2s8h5a.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000018468585"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54145"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BXMenC5tInFKGScmP9L4bkh6m94cMb00itD/HwfLwy8=\""
         },
         {
           "Name": "Last-Modified",
@@ -9987,45 +10026,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-eJ8gx6PNs9nnSfsbGxh4pU7QOdp81gbg8y/kS5hWwf8="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Dimadev.Web.pdb",
-      "AssetFile": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\pr95mhudec-k9vp6sg165.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000018458017"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "54176"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Rh1hirYpuO5KX1uPFRDWORYyO3n68O3mvH25F/3U8IM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 19:18:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -10041,19 +10041,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"eJ8gx6PNs9nnSfsbGxh4pU7QOdp81gbg8y/kS5hWwf8=\""
+          "Value": "W/\"uDKhoRIYMTZd5qwPTzbCJ2zElfrh+fFP05a3TeywMCA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eJ8gx6PNs9nnSfsbGxh4pU7QOdp81gbg8y/kS5hWwf8="
+          "Value": "sha256-uDKhoRIYMTZd5qwPTzbCJ2zElfrh+fFP05a3TeywMCA="
         }
       ]
     },
     {
       "Route": "_framework/Dimadev.Web.pdb.gz",
-      "AssetFile": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\pr95mhudec-k9vp6sg165.gz",
+      "AssetFile": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\pr95mhudec-kl7h2s8h5a.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10062,7 +10062,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "54176"
+          "Value": "54145"
         },
         {
           "Name": "Content-Type",
@@ -10070,11 +10070,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Rh1hirYpuO5KX1uPFRDWORYyO3n68O3mvH25F/3U8IM=\""
+          "Value": "\"BXMenC5tInFKGScmP9L4bkh6m94cMb00itD/HwfLwy8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 19:18:51 GMT"
+          "Value": "Thu, 05 Dec 2024 19:23:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10092,7 +10092,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Rh1hirYpuO5KX1uPFRDWORYyO3n68O3mvH25F/3U8IM="
+          "Value": "sha256-BXMenC5tInFKGScmP9L4bkh6m94cMb00itD/HwfLwy8="
         }
       ]
     },
@@ -10115,7 +10115,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/PiNm1Bnna8durvWP3l0dGLSiKhwOwoky5dzyUg9KA8=\""
+          "Value": "\"CKePwj7svMcZ65Jzz8j3HtudfZVTtnM5kD/+mJp4zss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 19:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CKePwj7svMcZ65Jzz8j3HtudfZVTtnM5kD/+mJp4zss="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Dimadev.Web.wasm",
+      "AssetFile": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\6m5cbd5my8-gaxenc27ea.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000023596593"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42378"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6SrCZU1UfBZFIWiRXO5n8EmcP0H4Z73e6UviWMQUD+Y=\""
         },
         {
           "Name": "Last-Modified",
@@ -10124,45 +10163,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-/PiNm1Bnna8durvWP3l0dGLSiKhwOwoky5dzyUg9KA8="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Dimadev.Web.wasm",
-      "AssetFile": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\6m5cbd5my8-w3rnkbbnye.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000023578789"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "42410"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ar9qrd9A3mb+xArfnuD/zOTvYZ2E+2R+OrJtohLodwk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 19:18:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -10178,19 +10178,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"/PiNm1Bnna8durvWP3l0dGLSiKhwOwoky5dzyUg9KA8=\""
+          "Value": "W/\"CKePwj7svMcZ65Jzz8j3HtudfZVTtnM5kD/+mJp4zss=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/PiNm1Bnna8durvWP3l0dGLSiKhwOwoky5dzyUg9KA8="
+          "Value": "sha256-CKePwj7svMcZ65Jzz8j3HtudfZVTtnM5kD/+mJp4zss="
         }
       ]
     },
     {
       "Route": "_framework/Dimadev.Web.wasm.gz",
-      "AssetFile": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\6m5cbd5my8-w3rnkbbnye.gz",
+      "AssetFile": "C:\\dev\\dimadev\\Dimadev.Web\\obj\\Debug\\net8.0\\compressed\\6m5cbd5my8-gaxenc27ea.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10199,7 +10199,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "42410"
+          "Value": "42378"
         },
         {
           "Name": "Content-Type",
@@ -10207,11 +10207,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ar9qrd9A3mb+xArfnuD/zOTvYZ2E+2R+OrJtohLodwk=\""
+          "Value": "\"6SrCZU1UfBZFIWiRXO5n8EmcP0H4Z73e6UviWMQUD+Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 19:18:51 GMT"
+          "Value": "Thu, 05 Dec 2024 19:23:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10229,7 +10229,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ar9qrd9A3mb+xArfnuD/zOTvYZ2E+2R+OrJtohLodwk="
+          "Value": "sha256-6SrCZU1UfBZFIWiRXO5n8EmcP0H4Z73e6UviWMQUD+Y="
         }
       ]
     },
