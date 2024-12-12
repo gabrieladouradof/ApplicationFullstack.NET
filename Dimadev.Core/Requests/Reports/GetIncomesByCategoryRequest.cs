@@ -2,7 +2,7 @@
 
 namespace Dimadev.Core.Requests.Reports;
 
-public class GetIncomesByCategory : Request
+public class GetIncomesByCategoryRequest : Request
 {
 
 }

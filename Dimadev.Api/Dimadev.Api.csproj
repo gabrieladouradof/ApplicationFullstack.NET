@@ -7,6 +7,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Data\Views\vwGetExpensesByCategory.sql" />
+    <None Remove="Data\Views\vwGetIncomesAndExpenses.sql" />
+    <None Remove="Data\Views\vwGetIncomesByCategory.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\Views\vwGetExpensesByCategory.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Views\vwGetIncomesAndExpenses.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Views\vwGetIncomesByCategory.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.10" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />

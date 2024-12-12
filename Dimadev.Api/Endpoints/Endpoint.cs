@@ -3,6 +3,7 @@ using Dima.Api.Endpoints.Transactions;
 using Dimadev.Api.Common.Api;
 using Dimadev.Api.Endpoints.Categories;
 using Dimadev.Api.Endpoints.Identity;
+using Dimadev.Api.Endpoints.Reports;
 using Dimadev.Api.Models;
 
 namespace Dimadev.Api.Endpoints
@@ -44,8 +45,14 @@ namespace Dimadev.Api.Endpoints
                 .WithTags("Identities")
                 .MapEndpoint<GetRolesEndpoint>()
                 .MapEndpoint<LogoutEndpoint>();
-                
 
+            endpoints.MapGroup("v1/reports")
+                .WithTags("Reports")
+                .RequireAuthorization()
+                .MapEndpoint<GetIncomesAndExpensesEndpoint>()
+                .MapEndpoint<GetIncomesByCategoryEndpoint>()
+                .MapEndpoint<GetExpensesByCategoryEndpoint>()
+                .MapEndpoint<GetFinancialSummaryEndpoint>();
         }
         private static IEndpointRouteBuilder MapEndpoint<TEndpoint> (this IEndpointRouteBuilder app)
             where TEndpoint : IEndpoint

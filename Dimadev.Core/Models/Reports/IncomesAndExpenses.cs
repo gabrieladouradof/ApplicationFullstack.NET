@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Dimadev.Core.Models.Reports
 {
-    public class IncomesAndExpenses (string UserId, int Motnh, int Year, decimal Incomes, decimal Expenses)
+    public record IncomesAndExpenses (string UserId, int Month, int Year, decimal Incomes, decimal Expenses)
     {
 
     }

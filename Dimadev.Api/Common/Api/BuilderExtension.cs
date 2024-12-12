@@ -4,6 +4,8 @@ using Dimadev.Core;
 using Microsoft.AspNetCore.Identity;
 using Dima.Api.Handlers;
 using Dima.Core.Handlers;
+using Dimadev.Core.Handlers;
+using Dimadev.Api.Handlers;
 
 namespace Dimadev.Api.Common.Api
 {
@@ -55,6 +57,7 @@ namespace Dimadev.Api.Common.Api
         {
             builder.Services.AddTransient<ICategoryHandler, CategoryHandler>();
             builder.Services.AddTransient<ITransactionHandler, TransactionHandler>();
+            builder.Services.AddTransient<IReportHandler, ReportHandler>();
 
         } 
 

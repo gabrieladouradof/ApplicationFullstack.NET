@@ -551,6 +551,90 @@
     ]
   },
   {
+    "ContainingType": "Dimadev.Api.Endpoints.Reports.GetExpensesByCategoryEndpoint",
+    "Method": "HandleAsync",
+    "RelativePath": "v1/reports/expenses",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Dimadev.Core.Responses.Response\u00601[[System.Collections.Generic.List\u00601[[Dimadev.Core.Models.Reports.ExpensesByCategory, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Reports"
+    ]
+  },
+  {
+    "ContainingType": "Dimadev.Api.Endpoints.Reports.GetIncomesByCategoryEndpoint",
+    "Method": "HandleAsync",
+    "RelativePath": "v1/reports/incomes",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Dimadev.Core.Responses.Response\u00601[[System.Collections.Generic.List\u00601[[Dimadev.Core.Models.Reports.IncomesByCategory, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Reports"
+    ]
+  },
+  {
+    "ContainingType": "Dimadev.Api.Endpoints.Reports.GetIncomesAndExpensesEndpoint",
+    "Method": "HandleAsync",
+    "RelativePath": "v1/reports/incomes-expenses",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Dimadev.Core.Responses.Response\u00601[[System.Collections.Generic.List\u00601[[Dimadev.Core.Models.Reports.ExpensesByCategory, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Reports"
+    ]
+  },
+  {
+    "ContainingType": "Dimadev.Api.Endpoints.Reports.GetFinancialSummaryEndpoint",
+    "Method": "HandleAsync",
+    "RelativePath": "v1/reports/summary",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Dimadev.Core.Responses.Response\u00601[[System.Collections.Generic.List\u00601[[Dimadev.Core.Models.Reports.ExpensesByCategory, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Reports"
+    ]
+  },
+  {
     "ContainingType": "Dima.Api.Endpoints.Transactions.CreateTransactionEndpoint",
     "Method": "HandleAsync",
     "RelativePath": "v1/transactions/",

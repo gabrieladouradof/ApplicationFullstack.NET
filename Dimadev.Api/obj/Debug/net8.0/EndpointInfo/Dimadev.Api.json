@@ -559,6 +559,82 @@
         }
       }
     },
+    "/v1/reports/incomes-expenses": {
+      "get": {
+        "tags": [
+          "Reports"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dimadev.Core.Responses.Response`1[[System.Collections.Generic.List`1[[Dimadev.Core.Models.Reports.ExpensesByCategory, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/reports/incomes": {
+      "get": {
+        "tags": [
+          "Reports"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dimadev.Core.Responses.Response`1[[System.Collections.Generic.List`1[[Dimadev.Core.Models.Reports.IncomesByCategory, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/reports/expenses": {
+      "get": {
+        "tags": [
+          "Reports"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dimadev.Core.Responses.Response`1[[System.Collections.Generic.List`1[[Dimadev.Core.Models.Reports.ExpensesByCategory, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/reports/summary": {
+      "get": {
+        "tags": [
+          "Reports"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dimadev.Core.Responses.Response`1[[System.Collections.Generic.List`1[[Dimadev.Core.Models.Reports.ExpensesByCategory, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/v1/transactions": {
       "post": {
         "tags": [
@@ -767,7 +843,8 @@
       },
       "Dima.Core.Enums.ETransactionType": {
         "enum": [
-          1
+          1,
+          2
         ],
         "type": "integer",
         "format": "int32"
@@ -961,6 +1038,50 @@
         },
         "additionalProperties": false
       },
+      "Dimadev.Core.Models.Reports.ExpensesByCategory": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "category": {
+            "type": "string",
+            "nullable": true
+          },
+          "year": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "incomes": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dimadev.Core.Models.Reports.IncomesByCategory": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "category": {
+            "type": "string",
+            "nullable": true
+          },
+          "year": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "incomes": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
       "Dimadev.Core.Responses.PagedResponse`1[[Dima.Core.Models.Transaction, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
         "type": "object",
         "properties": {
@@ -1043,6 +1164,40 @@
         "properties": {
           "data": {
             "$ref": "#/components/schemas/Dima.Core.Models.Transaction"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dimadev.Core.Responses.Response`1[[System.Collections.Generic.List`1[[Dimadev.Core.Models.Reports.ExpensesByCategory, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dimadev.Core.Models.Reports.ExpensesByCategory"
+            },
+            "nullable": true
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dimadev.Core.Responses.Response`1[[System.Collections.Generic.List`1[[Dimadev.Core.Models.Reports.IncomesByCategory, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dimadev.Core.Models.Reports.IncomesByCategory"
+            },
+            "nullable": true
           },
           "message": {
             "type": "string",
