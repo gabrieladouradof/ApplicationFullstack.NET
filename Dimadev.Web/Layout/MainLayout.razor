@@ -18,6 +18,12 @@
                 OnClick="ToggleDrawer"/>
                 Dima
                 <MudSpacer />
+
+                <MudButton Href="/lancamentos/novo"
+                           Variant="Variant.Text" StartIcon="@Icons.TwoTone.Add">
+                    NOVO LANÇAMENTO
+                </MudButton>
+
                 <MudText Typo="Typo.caption">
                     @context.User.Identity?.Name
                     </MudText>

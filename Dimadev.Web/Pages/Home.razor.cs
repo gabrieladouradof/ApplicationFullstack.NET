@@ -1,5 +1,8 @@
 ﻿using Microsoft.AspNetCore.Components;
 using MudBlazor;
+using Dimadev.Web.Handlers;
+using Dimadev.Core.Handlers;
+
 
 namespace Dimadev.Web.Pages
 {
@@ -10,9 +13,9 @@ namespace Dimadev.Web.Pages
         #endregion
 
         #region Services
-
+        
         [Inject]
-        public ISnackbar Snackbar { get; set; }
+        public ISnackbar? Snackbar { get; set; }
         public IReportHandler Handler { get; set; } = null!;
 
         #endregion

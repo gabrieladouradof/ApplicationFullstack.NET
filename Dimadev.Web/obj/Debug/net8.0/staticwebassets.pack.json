@@ -1,51 +1,51 @@
 {
   "Files": [
     {
-      "Id": "C:\\dev\\dimadev\\Dimadev.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\DEV\\dimadev\\dimadev.web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\dev\\dimadev\\Dimadev.Web\\wwwroot\\appsettings.json",
+      "Id": "C:\\DEV\\dimadev\\dimadev.web\\wwwroot\\appsettings.json",
       "PackagePath": "staticwebassets\\appsettings.json"
     },
     {
-      "Id": "C:\\dev\\dimadev\\Dimadev.Web\\wwwroot\\css\\app.css",
+      "Id": "C:\\DEV\\dimadev\\dimadev.web\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\dev\\dimadev\\Dimadev.Web\\wwwroot\\favicon.png",
+      "Id": "C:\\DEV\\dimadev\\dimadev.web\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\dev\\dimadev\\Dimadev.Web\\wwwroot\\icon-192.png",
+      "Id": "C:\\DEV\\dimadev\\dimadev.web\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\dev\\dimadev\\Dimadev.Web\\wwwroot\\icon-512.png",
+      "Id": "C:\\DEV\\dimadev\\dimadev.web\\wwwroot\\icon-512.png",
       "PackagePath": "staticwebassets\\icon-512.png"
     },
     {
-      "Id": "C:\\dev\\dimadev\\Dimadev.Web\\wwwroot\\imgs\\dima.png",
+      "Id": "C:\\DEV\\dimadev\\dimadev.web\\wwwroot\\imgs\\dima.png",
       "PackagePath": "staticwebassets\\imgs\\dima.png"
     },
     {
-      "Id": "C:\\dev\\dimadev\\Dimadev.Web\\wwwroot\\imgs\\logo.png",
+      "Id": "C:\\DEV\\dimadev\\dimadev.web\\wwwroot\\imgs\\logo.png",
       "PackagePath": "staticwebassets\\imgs\\logo.png"
     },
     {
-      "Id": "C:\\dev\\dimadev\\Dimadev.Web\\wwwroot\\index.html",
+      "Id": "C:\\DEV\\dimadev\\dimadev.web\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\dev\\dimadev\\Dimadev.Web\\wwwroot\\manifest.webmanifest",
+      "Id": "C:\\DEV\\dimadev\\dimadev.web\\wwwroot\\manifest.webmanifest",
       "PackagePath": "staticwebassets\\manifest.webmanifest"
     },
     {
-      "Id": "C:\\dev\\dimadev\\Dimadev.Web\\wwwroot\\service-worker.js",
+      "Id": "C:\\DEV\\dimadev\\dimadev.web\\wwwroot\\service-worker.js",
       "PackagePath": "staticwebassets\\service-worker.js"
     },
     {
-      "Id": "C:\\dev\\dimadev\\Dimadev.Web\\wwwroot\\service-worker.published.js",
+      "Id": "C:\\DEV\\dimadev\\dimadev.web\\wwwroot\\service-worker.published.js",
       "PackagePath": "staticwebassets\\service-worker.published.js"
     },
     {

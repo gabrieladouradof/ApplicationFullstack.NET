@@ -138,6 +138,6 @@ C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.pdb
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.genruntimeconfig.cache
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\ref\Dimadev.Api.dll
 C:\dev\dimadev\Dimadev.api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\dev\dimadev\Dimadev.api\bin\Debug\net8.0\Data\Views\viewGetExpensesByCategory.sql
-C:\dev\dimadev\Dimadev.api\bin\Debug\net8.0\Data\Views\viewGetIncomesAndExpenses.sql
-C:\dev\dimadev\Dimadev.api\bin\Debug\net8.0\Data\Views\viewGetIncomesByCategory.sql
+C:\dev\dimadev\Dimadev.api\bin\Debug\net8.0\Data\Views\vwGetExpensesByCategory.sql
+C:\dev\dimadev\Dimadev.api\bin\Debug\net8.0\Data\Views\vwGetIncomesAndExpenses.sql
+C:\dev\dimadev\Dimadev.api\bin\Debug\net8.0\Data\Views\vwGetIncomesByCategory.sql

@@ -9,7 +9,7 @@ namespace Dimadev.Web
 
         public static string BackendUrl { get; set; } = "http://localhost:5252";
 
-        public static MudTheme Theme { get; } = new MudTheme
+        public static MudTheme Theme = new ()
         {
             Typography = new Typography
             {
@@ -22,7 +22,7 @@ namespace Dimadev.Web
             {
                 Primary = "#1EFA2D",
                 PrimaryContrastText = new MudColor("#000000"),
-                Secondary = Colors.Pink.Darken3,
+                Secondary = Colors.LightGreen.Darken3,
                 Background = Colors.Grey.Lighten4,
                 AppbarBackground = new MudColor("#1EFA2D"),
                 AppbarText = Colors.Shades.Black,
