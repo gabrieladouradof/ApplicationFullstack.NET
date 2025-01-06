@@ -27,28 +27,6 @@ namespace Dimadev.Web.Pages.Transactions
         #endregion
 
         #region Methods
-
-        #region Overrides
-        protected override async Task OnInitializedAsync()
-        {
-            IsBusy = true;
-            try
-            {
-                var request = new GetAllCategoriesRequest();
-                var result = await CategoryHandler.GetAllAsync(request);
-
-                if (result.IsSucess)
-                {
-                    Categories = result.Data ?? [];
-                    InputModel.CategoryId = Categories.FirstOrDefault()?.Id ?? 0;
-                }
-            }
-            catch (Exception ex)
-            {
-                Snackbar.Add(ex.Message, Severity.Error);
-            }
-        }
-        #endregion
         public async Task OnValidSubmitAsync()
         {
             IsBusy = true;
@@ -74,4 +52,31 @@ namespace Dimadev.Web.Pages.Transactions
             #endregion
 
         }
+
+        #region Overrides
+        protected override async Task OnInitializedAsync()
+        {
+            IsBusy = true;
+            try
+            {
+                var request = new GetAllCategoriesRequest();
+                var result = await CategoryHandler.GetAllAsync(request);
+
+                if (result.IsSucess)
+                {
+                    Categories = result.Data ?? [];
+                    InputModel.CategoryId = Categories.FirstOrDefault()?.Id ?? 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                Snackbar.Add(ex.Message, Severity.Error);
+            }
+            finally
+            {
+                IsBusy = false;
+            }
+        }
+        #endregion
+
     } }

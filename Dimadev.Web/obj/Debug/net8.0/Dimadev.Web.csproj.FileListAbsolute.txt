@@ -1061,8 +1061,6 @@ C:\DEV\dimadev\dimadev.web\obj\Debug\net8.0\compressed\mmgc6n5esd-xjx70hiola.gz
 C:\DEV\dimadev\dimadev.web\obj\Debug\net8.0\compressed\drn3g3b3st-zqgqlj6bjk.gz
 C:\DEV\dimadev\dimadev.web\obj\Debug\net8.0\compressed\9ycnjafrw4-oh1zvcfom8.gz
 C:\DEV\dimadev\dimadev.web\obj\Debug\net8.0\compressed\t9r8qsrcyq-oyz0vx2fzb.gz
-C:\DEV\dimadev\dimadev.web\obj\Debug\net8.0\compressed\y9hmetrp37-62yd9b7mmk.gz
-C:\DEV\dimadev\dimadev.web\obj\Debug\net8.0\compressed\ewbrmhdrn6-387xta4cfq.gz
 C:\DEV\dimadev\dimadev.web\obj\Debug\net8.0\staticwebassets.build.json
 C:\DEV\dimadev\dimadev.web\obj\Debug\net8.0\staticwebassets.development.json
 C:\DEV\dimadev\dimadev.web\obj\Debug\net8.0\staticwebassets.build.endpoints.json
@@ -1077,6 +1075,9 @@ C:\DEV\dimadev\dimadev.web\obj\Debug\net8.0\Dimadev.Web.dll
 C:\DEV\dimadev\dimadev.web\obj\Debug\net8.0\refint\Dimadev.Web.dll
 C:\DEV\dimadev\dimadev.web\obj\Debug\net8.0\Dimadev.Web.pdb
 C:\DEV\dimadev\dimadev.web\obj\Debug\net8.0\ref\Dimadev.Web.dll
-C:\DEV\dimadev\dimadev.web\obj\Debug\net8.0\compressed\6m5cbd5my8-faln1ia3ns.gz
-C:\DEV\dimadev\dimadev.web\obj\Debug\net8.0\compressed\pr95mhudec-wx64n60dpo.gz
-C:\DEV\dimadev\dimadev.web\obj\Debug\net8.0\compressed\a7gl9k3fdx-mui7q9hcp9.gz
+C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\compressed\y9hmetrp37-qsc4pdsaxg.gz
+C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\compressed\ewbrmhdrn6-crc86p06ha.gz
+C:\dev\dimadev\Dimadev.Web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\dev\dimadev\Dimadev.Web\obj\Debug\net8.0\compressed\6m5cbd5my8-55t32a56yc.gz
+C:\dev\dimadev\Dimadev.Web\obj\Debug\net8.0\compressed\pr95mhudec-lbujmwxrox.gz
+C:\dev\dimadev\Dimadev.Web\obj\Debug\net8.0\compressed\a7gl9k3fdx-972f54b1nu.gz

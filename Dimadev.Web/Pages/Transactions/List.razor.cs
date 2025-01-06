@@ -30,8 +30,6 @@ namespace Dimadev.Web.Pages.Transactions
 
         #region Services
         [Inject]
-        public ITransactionHandler TransactionHandler { get; set; } = null!;
-        [Inject]
         public IDialogService DialogService { get; set; } = null!;
         [Inject]
         public ISnackbar Snackbar { get; set; } = null!;
@@ -115,6 +113,10 @@ namespace Dimadev.Web.Pages.Transactions
                 {
                     Snackbar.Add($"Lancamento {title} removido!", Severity.Success);
                     Transactions.RemoveAll(x => x.Id == id);
+                }
+                else
+                {
+                    Snackbar.Add(result.Message, Severity.Error);
                 }
             }
             catch (Exception ex)

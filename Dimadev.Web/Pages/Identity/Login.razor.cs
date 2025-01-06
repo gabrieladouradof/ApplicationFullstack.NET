@@ -8,7 +8,7 @@ namespace Dimadev.Web.Pages.Identity
 {
     public partial class LoginPage : ComponentBase
     {
-        #region Dependencies
+        #region Services
         [Inject]
         public ISnackbar Snackbar { get; set; } = null!;
 
@@ -25,7 +25,6 @@ namespace Dimadev.Web.Pages.Identity
         #region Properties
         public bool IsBusy { get; set; } = false;
         public LoginRequest InputModel { get; set; } = new();
-
         #endregion
 
         #region Overrides
@@ -35,10 +34,8 @@ namespace Dimadev.Web.Pages.Identity
             var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
             var user = authState.User;
 
-            if (user.Identity is not null && user.Identity.IsAuthenticated)
-            {
+            if (user.Identity is { IsAuthenticated: true })
                 NavigationManager.NavigateTo("/");
-            }
         }
         #endregion
 
@@ -50,13 +47,16 @@ namespace Dimadev.Web.Pages.Identity
             {
                 var result = await Handler.LoginAsync(InputModel);
                 if (result.IsSucess)
-                {              
+                {
+                    await AuthenticationStateProvider.GetAuthenticationStateAsync();
+                    AuthenticationStateProvider.NotifyAuthenticationStateChanged(); 
                     NavigationManager.NavigateTo("/");
                 }
                 else
                 {
                     Snackbar.Add(result.Message, Severity.Error);
                 }
+      
             }
             catch (Exception ex)
             {

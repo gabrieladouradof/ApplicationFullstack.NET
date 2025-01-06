@@ -36,10 +36,9 @@ namespace Dimadev.Web.Pages.Identity
             var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
             var user = authState.User;
 
-            if(user.Identity is not null && user.Identity.IsAuthenticated) 
-            {
-                NavigationManager.NavigateTo("/");
-            }
+            if(user.Identity is { IsAuthenticated: true}) 
+               NavigationManager.NavigateTo("/");
+            
         }
         #endregion
 

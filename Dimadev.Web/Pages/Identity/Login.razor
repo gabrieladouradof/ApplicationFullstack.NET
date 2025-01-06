@@ -16,7 +16,6 @@
 
             <EditForm Model="@InputModel" OnValidSubmit="OnValidSubmitAsync">
                 <DataAnnotationsValidator />
-                <ValidationSummary />
 
                 <MudTextField T="string"
                               Label="E-mail"
@@ -28,6 +27,7 @@
 
                 <MudTextField T="string"
                               Label="Senha"
+                              HelperText="Campo obrigatório"
                               InputType="InputType.Password"
                       
                               For="@(() => InputModel.Password)"
@@ -47,7 +47,6 @@
                 </div>
 
             </EditForm>
-
         </MudPaper>
     </MudItem>
 </MudGrid>
