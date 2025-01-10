@@ -1053,7 +1053,7 @@
             "type": "integer",
             "format": "int32"
           },
-          "incomes": {
+          "expenses": {
             "type": "number",
             "format": "double"
           }

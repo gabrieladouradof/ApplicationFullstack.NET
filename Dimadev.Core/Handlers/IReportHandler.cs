@@ -1,4 +1,4 @@
-﻿using Dimadev.Core.Models.Reports;
+﻿ using Dimadev.Core.Models.Reports;
 using Dimadev.Core.Requests.Reports;
 using Dimadev.Core.Responses;
 using System;

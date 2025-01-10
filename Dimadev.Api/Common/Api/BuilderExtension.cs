@@ -59,6 +59,7 @@ namespace Dimadev.Api.Common.Api
             builder.Services.AddTransient<ITransactionHandler, TransactionHandler>();
             builder.Services.AddTransient<IReportHandler, ReportHandler>();
 
+
         } 
 
     }

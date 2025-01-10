@@ -76,6 +76,7 @@ namespace Dimadev.Api.Handlers
         //classe para resumo financeiro, comeca do dia primeiro (1)
         public async Task<Response<FinancialSummary?>> GetFinancialSummaryReportAsync(GetFinancialSummaryRequest request)
         {
+            //construcao das datas
             var startDate = new DateTime (DateTime.Now.Year, DateTime.Now.Month, 1);    
             try
             {
@@ -91,6 +92,7 @@ namespace Dimadev.Api.Handlers
                     .Select
                     (x => new FinancialSummary(
                         request.UserId,
+                        //soma receitas e despesas 
                         x.Where(ty => ty.Type == ETransactionType.Deposit).Sum(t => t.Amount),
                         x.Where(ty => ty.Type == ETransactionType.Withdraw).Sum(t => t.Amount)
                     ))

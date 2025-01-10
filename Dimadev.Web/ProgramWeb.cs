@@ -24,9 +24,10 @@ builder.Services.AddAuthorizationCore();
 builder.Services.AddScoped<AuthenticationStateProvider, CookieAuthenticationStateProvider>();
 builder.Services.AddScoped(x => (ICookieAuthenticationStateProvider)x.GetRequiredService<AuthenticationStateProvider>());
 
-builder.Services.AddScoped<IAccountHandler, AccountHandler>();
-builder.Services.AddScoped<ICategoryHandler, CategoryHandler>();
-builder.Services.AddScoped<ITransactionHandler, TransactionHandler>();
+builder.Services.AddTransient<IAccountHandler, AccountHandler>();
+builder.Services.AddTransient<ICategoryHandler, CategoryHandler>();
+builder.Services.AddTransient<ITransactionHandler, TransactionHandler>();
+builder.Services.AddTransient<IReportHandler, ReportHandler>();
 
 builder.Services.AddMudServices();
 
