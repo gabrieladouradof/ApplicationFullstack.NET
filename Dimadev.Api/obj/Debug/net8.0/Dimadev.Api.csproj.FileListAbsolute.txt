@@ -1,5 +1,8 @@
 C:\dev\dimadev\dimadev.api\bin\Debug\net8.0\appsettings.Development.json
 C:\dev\dimadev\dimadev.api\bin\Debug\net8.0\appsettings.json
+C:\dev\dimadev\dimadev.api\bin\Debug\net8.0\Data\Views\vwGetExpensesByCategory.sql
+C:\dev\dimadev\dimadev.api\bin\Debug\net8.0\Data\Views\vwGetIncomesAndExpenses.sql
+C:\dev\dimadev\dimadev.api\bin\Debug\net8.0\Data\Views\vwGetIncomesByCategory.sql
 C:\dev\dimadev\dimadev.api\bin\Debug\net8.0\Dimadev.Api.staticwebassets.endpoints.json
 C:\dev\dimadev\dimadev.api\bin\Debug\net8.0\Dimadev.Api.exe
 C:\dev\dimadev\dimadev.api\bin\Debug\net8.0\Dimadev.Api.deps.json
@@ -137,6 +140,3 @@ C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\refint\Dimadev.Api.dll
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.pdb
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.genruntimeconfig.cache
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\ref\Dimadev.Api.dll
-C:\dev\dimadev\Dimadev.api\bin\Debug\net8.0\Data\Views\vwGetExpensesByCategory.sql
-C:\dev\dimadev\Dimadev.api\bin\Debug\net8.0\Data\Views\vwGetIncomesAndExpenses.sql
-C:\dev\dimadev\Dimadev.api\bin\Debug\net8.0\Data\Views\vwGetIncomesByCategory.sql

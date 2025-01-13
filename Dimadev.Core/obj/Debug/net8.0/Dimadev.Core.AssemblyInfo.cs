@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dimadev.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+456cab8939b5ecd1d3fe22a8b3d080c3d98cd276")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23f909475ee68b49e7799eeb7737a4b12a0e8b25")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dimadev.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dimadev.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

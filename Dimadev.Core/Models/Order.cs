@@ -12,7 +12,7 @@ namespace Dimadev.Core.Models
         public long Id { get; set; }
         public string Number { get; set; } = Guid.NewGuid().ToString("N")[..8];
         public DateTime CreatedAt { get; set; } = DateTime.Now;
-        public DateTime UptadedAt { get; set; } = DateTime.Now;
+        public DateTime UpdatedAt { get; set; } = DateTime.Now;
 
         public string? ExternalReference { get; set; }
         public EPaymentGateway Gateway { get; set; } = EPaymentGateway.Stripe;

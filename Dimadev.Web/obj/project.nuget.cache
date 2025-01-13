@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yAMduNir0kw=",
+  "dgSpecHash": "CMmDPZMHFbA=",
   "success": true,
-  "projectFilePath": "C:\\dev\\dimadev\\dimadev.web\\Dimadev.Web.csproj",
+  "projectFilePath": "C:\\dev\\dimadev\\Dimadev.Web\\Dimadev.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GabrielaDourado\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.10\\microsoft.aspnetcore.authorization.8.0.10.nupkg.sha512",
     "C:\\Users\\GabrielaDourado\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.10\\microsoft.aspnetcore.components.8.0.10.nupkg.sha512",
@@ -49,7 +49,7 @@
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'System.Text.Json' 8.0.0 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
+      "message": "Package 'System.Text.Json' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
       "libraryId": "System.Text.Json",
       "targetGraphs": [
         "net8.0",
@@ -60,7 +60,7 @@
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'System.Text.Json' 8.0.0 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
+      "message": "Package 'System.Text.Json' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
       "libraryId": "System.Text.Json",
       "targetGraphs": [
         "net8.0",

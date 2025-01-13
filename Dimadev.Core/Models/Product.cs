@@ -16,6 +16,5 @@ namespace Dimadev.Core.Models
         public bool IsActive { get; set; }
         public decimal Price { get; set; }
 
-        public Dictionary<string, string> Properties { get; set; }
     }
 }

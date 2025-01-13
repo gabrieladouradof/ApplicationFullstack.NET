@@ -4,6 +4,7 @@ using Dimadev.Api.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Dimadev.Api.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250113021705_v5")]
+    partial class v5
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -152,87 +155,6 @@ namespace Dimadev.Api.Migrations
                     b.ToTable("IdentityUser", (string)null);
                 });
 
-            modelBuilder.Entity("Dimadev.Core.Models.Order", b =>
-                {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<long>("Id"));
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("DATETIME2");
-
-                    b.Property<string>("ExternalReference")
-                        .HasMaxLength(60)
-                        .HasColumnType("VARCHAR");
-
-                    b.Property<short>("Gateway")
-                        .HasColumnType("SMALLINT");
-
-                    b.Property<string>("Number")
-                        .IsRequired()
-                        .HasMaxLength(8)
-                        .HasColumnType("CHAR");
-
-                    b.Property<long>("ProductId")
-                        .HasColumnType("bigint");
-
-                    b.Property<short>("Status")
-                        .HasColumnType("SMALLINT");
-
-                    b.Property<DateTime>("UpdatedAt")
-                        .HasColumnType("DATETIME2");
-
-                    b.Property<string>("UserId")
-                        .HasMaxLength(160)
-                        .HasColumnType("VARCHAR");
-
-                    b.Property<long?>("VoucherId")
-                        .HasColumnType("bigint");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.HasIndex("VoucherId");
-
-                    b.ToTable("Order", (string)null);
-                });
-
-            modelBuilder.Entity("Dimadev.Core.Models.Product", b =>
-                {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<long>("Id"));
-
-                    b.Property<string>("Description")
-                        .HasMaxLength(255)
-                        .HasColumnType("VARCHAR");
-
-                    b.Property<ulong>("IsActive")
-                        .HasColumnType("BIT");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("DECIMAL(18,2)");
-
-                    b.Property<string>("Slug")
-                        .IsRequired()
-                        .HasMaxLength(80)
-                        .HasColumnType("VARCHAR");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasMaxLength(80)
-                        .HasColumnType("VARCHAR");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Product", (string)null);
-                });
-
             modelBuilder.Entity("Dimadev.Core.Models.Reports.ExpensesByCategory", b =>
                 {
                     b.Property<string>("Category")
@@ -296,39 +218,6 @@ namespace Dimadev.Api.Migrations
                     b.ToTable((string)null);
 
                     b.ToView("vwGetIncomesByCategory", (string)null);
-                });
-
-            modelBuilder.Entity("Dimadev.Core.Models.Voucher", b =>
-                {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<long>("Id"));
-
-                    b.Property<decimal>("Amount")
-                        .HasColumnType("DECIMAL(18,2)");
-
-                    b.Property<string>("Description")
-                        .HasMaxLength(255)
-                        .HasColumnType("VARCHAR");
-
-                    b.Property<ulong>("IsActive")
-                        .HasColumnType("BIT");
-
-                    b.Property<string>("Number")
-                        .IsRequired()
-                        .HasMaxLength(8)
-                        .HasColumnType("CHAR");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasMaxLength(80)
-                        .HasColumnType("VARCHAR");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Voucher", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole<long>", b =>
@@ -481,23 +370,6 @@ namespace Dimadev.Api.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
-                });
-
-            modelBuilder.Entity("Dimadev.Core.Models.Order", b =>
-                {
-                    b.HasOne("Dimadev.Core.Models.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Dimadev.Core.Models.Voucher", "Voucher")
-                        .WithMany()
-                        .HasForeignKey("VoucherId");
-
-                    b.Navigation("Product");
-
-                    b.Navigation("Voucher");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole<long>", b =>

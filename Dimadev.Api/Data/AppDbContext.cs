@@ -1,5 +1,7 @@
 ﻿using Dima.Core.Models;
+using Dimadev.Api.Data.Mappings;
 using Dimadev.Api.Models;
+using Dimadev.Core.Models;
 using Dimadev.Core.Models.Reports;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -22,6 +24,9 @@ namespace Dimadev.Api.Data
         }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<Product> Products { get; set; } = null!;
+        public DbSet<Voucher> Vouchers { get; set; } = null!;
+        public DbSet<Order> Orders { get; set; } = null!;
 
         public DbSet<IncomesAndExpenses> IncomesAndExpenses { get; set; } = null!;
         public DbSet<IncomesByCategory> IncomesByCategories { get; set; } = null!;
@@ -30,7 +35,8 @@ namespace Dimadev.Api.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            //  modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            modelBuilder.ApplyConfiguration(new OrderMapping());
 
             modelBuilder.Entity<IncomesAndExpenses>()
                 .HasNoKey()
