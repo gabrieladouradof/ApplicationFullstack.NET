@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Dimadev.Api.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250113025131_tables")]
-    partial class tables
+    [Migration("20250113031224_fixing")]
+    partial class fixing
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -164,7 +164,7 @@ namespace Dimadev.Api.Migrations
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<long>("Id"));
 
                     b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("DATETIME2");
+                        .HasColumnType("DATETIME(6)");
 
                     b.Property<string>("ExternalReference")
                         .HasMaxLength(60)
@@ -185,7 +185,7 @@ namespace Dimadev.Api.Migrations
                         .HasColumnType("SMALLINT");
 
                     b.Property<DateTime>("UpdatedAt")
-                        .HasColumnType("DATETIME2");
+                        .HasColumnType("DATETIME(6)");
 
                     b.Property<string>("UserId")
                         .HasMaxLength(160)

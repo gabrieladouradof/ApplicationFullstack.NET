@@ -123,7 +123,6 @@ C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.AssemblyInfo.cs
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.csproj.CoreCompileInputs.cache
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.MvcApplicationPartsAssemblyInfo.cache
-C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.sourcelink.json
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\scopedcss\bundle\Dimadev.Api.styles.css
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\staticwebassets.build.json
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\staticwebassets.development.json

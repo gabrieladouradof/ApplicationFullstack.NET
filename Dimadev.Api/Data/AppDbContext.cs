@@ -35,8 +35,8 @@ namespace Dimadev.Api.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //  modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
-            modelBuilder.ApplyConfiguration(new OrderMapping());
+          
+              modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
             modelBuilder.Entity<IncomesAndExpenses>()
                 .HasNoKey()
