@@ -50,7 +50,7 @@ namespace Dima.Api.Handlers
                 if (transaction is null)
                     return new Response<Transaction?>(null, 404, "Transacao nao encontrada");
 
-            //    transaction.PairdOrReceivedAt = request.PaidOrReceivedAt;
+                //transaction.PairdOrReceivedAt = request.PaidOrReceivedAt;
 
                 context.Transactions.Remove(transaction);
                 await context.SaveChangesAsync();

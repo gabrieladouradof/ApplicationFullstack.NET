@@ -6,6 +6,7 @@ using Dimadev.Core.Models.Reports;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using System.Reflection;
 
 namespace Dimadev.Api.Data
@@ -16,27 +17,29 @@ namespace Dimadev.Api.Data
         IdentityUserRole<long>,
         IdentityUserLogin<long>,
         IdentityRoleClaim<long>,
-        IdentityUserToken<long>
-        >
+        IdentityUserToken<long>> 
+        
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<Category> Categories { get; set; } = null!;
+        public DbSet<Transaction> Transactions { get; set; } = null!;
         public DbSet<Product> Products { get; set; } = null!;
         public DbSet<Voucher> Vouchers { get; set; } = null!;
         public DbSet<Order> Orders { get; set; } = null!;
 
         public DbSet<IncomesAndExpenses> IncomesAndExpenses { get; set; } = null!;
-        public DbSet<IncomesByCategory> IncomesByCategories { get; set; } = null!;
+        public DbSet<IncomesByCategory> IncomesByCategories { get; set; } = null!;         
         public DbSet<ExpensesByCategory> ExpensesByCategories { get; set; } = null!;
 
+     
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-          
-              modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+           
+
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
             modelBuilder.Entity<IncomesAndExpenses>()
                 .HasNoKey()
@@ -50,5 +53,10 @@ namespace Dimadev.Api.Data
                 .HasNoKey()
                 .ToView("vwGetExpensesByCategory");
         }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.LogTo(Console.WriteLine, LogLevel.Information);
+        }
+
     }
 }

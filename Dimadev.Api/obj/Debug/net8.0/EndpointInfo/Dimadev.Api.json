@@ -559,7 +559,7 @@
         }
       }
     },
-    "/v1/reports/incomes-expenses": {
+    "/incomes-expenses": {
       "get": {
         "tags": [
           "Reports"
@@ -578,7 +578,7 @@
         }
       }
     },
-    "/v1/reports/incomes": {
+    "/incomes": {
       "get": {
         "tags": [
           "Reports"
@@ -597,7 +597,7 @@
         }
       }
     },
-    "/v1/reports/expenses": {
+    "/expenses": {
       "get": {
         "tags": [
           "Reports"
@@ -616,7 +616,7 @@
         }
       }
     },
-    "/v1/reports/summary": {
+    "/summary": {
       "get": {
         "tags": [
           "Reports"

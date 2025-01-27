@@ -59,7 +59,7 @@ namespace Dimadev.Api.Migrations
             migrationBuilder.DropIndex(
                 name: "IX_IdentityUser_NormalizedUserName",
                 table: "IdentityUser");
-
+           
             migrationBuilder.DropPrimaryKey(
                 name: "PK_IdentityRoleClaim",
                 table: "IdentityRoleClaim");
@@ -79,34 +79,6 @@ namespace Dimadev.Api.Migrations
             migrationBuilder.DropIndex(
                 name: "IX_IdentityClaim_UserId",
                 table: "IdentityClaim");
-
-            migrationBuilder.RenameTable(
-                name: "IdentityUserToken",
-                newName: "UserTokens");
-
-            migrationBuilder.RenameTable(
-                name: "IdentityUserRole",
-                newName: "UserRoles");
-
-            migrationBuilder.RenameTable(
-                name: "IdentityUserLogin",
-                newName: "UserLogins");
-
-            migrationBuilder.RenameTable(
-                name: "IdentityUser",
-                newName: "Users");
-
-            migrationBuilder.RenameTable(
-                name: "IdentityRoleClaim",
-                newName: "RoleClaims");
-
-            migrationBuilder.RenameTable(
-                name: "IdentityRole",
-                newName: "Roles");
-
-            migrationBuilder.RenameTable(
-                name: "IdentityClaim",
-                newName: "UserClaims");
 
             migrationBuilder.RenameIndex(
                 name: "IX_IdentityRole_UserId",

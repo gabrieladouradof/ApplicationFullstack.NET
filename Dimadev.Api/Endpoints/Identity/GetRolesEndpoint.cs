@@ -2,6 +2,7 @@
 using Dimadev.Core.Models.Account;
 using Microsoft.AspNetCore.Identity;
 using Org.BouncyCastle.Asn1.Cms;
+using Org.BouncyCastle.X509;
 using System.Reflection.Metadata;
 using System.Security.Claims;
 
@@ -16,6 +17,7 @@ namespace Dimadev.Api.Endpoints.Identity
 
         private static Task<IResult> Handle(ClaimsPrincipal user)
         {
+            // user.Identity.Name is null   
             if (user.Identity is null || !user.Identity.IsAuthenticated) 
             {
                 return Task.FromResult(Results.Unauthorized());

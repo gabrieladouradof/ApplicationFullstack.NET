@@ -1,3 +1,10 @@
+C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.csproj.AssemblyReference.cache
+C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.AssemblyInfoInputs.cache
+C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.AssemblyInfo.cs
+C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.csproj.CoreCompileInputs.cache
+C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\dev\dimadev\dimadev.api\bin\Debug\net8.0\appsettings.Development.json
 C:\dev\dimadev\dimadev.api\bin\Debug\net8.0\appsettings.json
 C:\dev\dimadev\dimadev.api\bin\Debug\net8.0\Data\Views\vwGetExpensesByCategory.sql
@@ -116,13 +123,6 @@ C:\dev\dimadev\dimadev.api\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
 C:\dev\dimadev\dimadev.api\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
 C:\dev\dimadev\dimadev.api\bin\Debug\net8.0\Dimadev.Core.dll
 C:\dev\dimadev\dimadev.api\bin\Debug\net8.0\Dimadev.Core.pdb
-C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.csproj.AssemblyReference.cache
-C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.AssemblyInfoInputs.cache
-C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.AssemblyInfo.cs
-C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.csproj.CoreCompileInputs.cache
-C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\scopedcss\bundle\Dimadev.Api.styles.css
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\staticwebassets.build.json
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\staticwebassets.development.json
@@ -139,3 +139,4 @@ C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\refint\Dimadev.Api.dll
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.pdb
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\Dimadev.Api.genruntimeconfig.cache
 C:\dev\dimadev\dimadev.api\obj\Debug\net8.0\ref\Dimadev.Api.dll
+C:\dev\dimadev\Dimadev.api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

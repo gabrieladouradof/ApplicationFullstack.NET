@@ -1075,9 +1075,8 @@ C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\Dimadev.Web.dll
 C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\refint\Dimadev.Web.dll
 C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\Dimadev.Web.pdb
 C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\ref\Dimadev.Web.dll
-C:\dev\dimadev\Dimadev.Web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\dev\dimadev\Dimadev.Web\obj\Debug\net8.0\compressed\y9hmetrp37-s5io2kt7pi.gz
-C:\dev\dimadev\Dimadev.Web\obj\Debug\net8.0\compressed\ewbrmhdrn6-pnb2puw3xj.gz
-C:\dev\dimadev\Dimadev.Web\obj\Debug\net8.0\compressed\6m5cbd5my8-oxskgbe2ii.gz
-C:\dev\dimadev\Dimadev.Web\obj\Debug\net8.0\compressed\pr95mhudec-4gcikcxxyu.gz
-C:\dev\dimadev\Dimadev.Web\obj\Debug\net8.0\compressed\a7gl9k3fdx-bi4jxte816.gz
+C:\dev\dimadev\Dimadev.Web\obj\Debug\net8.0\compressed\y9hmetrp37-yw8y7pak5d.gz
+C:\dev\dimadev\Dimadev.Web\obj\Debug\net8.0\compressed\ewbrmhdrn6-ov59pvpbww.gz
+C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\compressed\6m5cbd5my8-5o9rg77ek4.gz
+C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\compressed\pr95mhudec-bu4k8c81xv.gz
+C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\compressed\a7gl9k3fdx-dmx6m71e2y.gz

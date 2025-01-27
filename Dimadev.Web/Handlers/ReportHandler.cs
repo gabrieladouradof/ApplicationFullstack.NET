@@ -14,21 +14,21 @@ namespace Dimadev.Web.Handlers
         public async Task<Response<List<IncomesAndExpenses>?>> GetIncomesAndExpensesReportAsync (GetIncomesAndExpensesRequest request)
         {
             return await _client.GetFromJsonAsync<Response<List<IncomesAndExpenses>?>>
-                ($"v1/reports/incomes-expenses")
+                ($"/incomes-expenses")
                 ?? new Response<List<IncomesAndExpenses>?>(null,400, "Nao foi possível obter os dados.");
         }
 
         public async Task<Response<List<IncomesByCategory>?>> GetIncomesByCategoryReportAsync(GetIncomesByCategoryRequest request)
         {
             return await _client.GetFromJsonAsync<Response<List<IncomesByCategory>?>>
-                ($"v1/reports/incomes")
+                ($"/incomes")
                 ?? new Response<List<IncomesByCategory>?>(null, 400, "Nao foi possível obter os dados.");
         }
        
         public async Task<Response<List<ExpensesByCategory>?>> GetExpensesByCategoryReportAsync(GetExpensesByCategoryRequest request)
         {
             return await _client.GetFromJsonAsync<Response<List<ExpensesByCategory>?>>
-                ($"v1/reports/expenses")
+                ($"/reports/expenses")
          
                 ?? new Response<List<ExpensesByCategory>?>(null, 400, "Nao foi possível obter os dados.");
         }
@@ -36,7 +36,7 @@ namespace Dimadev.Web.Handlers
         public async Task<Response<FinancialSummary?>> GetFinancialSummaryReportAsync(GetFinancialSummaryRequest request)
         {
             return await _client.GetFromJsonAsync<Response<FinancialSummary?>>
-                ($"v1/reports/summary")
+                ($"/summary")
                 ?? new Response<FinancialSummary?>(null, 400, "Nao foi possível obter os dados.");
         }
     }
