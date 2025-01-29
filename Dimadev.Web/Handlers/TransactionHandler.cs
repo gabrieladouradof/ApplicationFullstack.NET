@@ -35,7 +35,7 @@ namespace Dimadev.Web.Handlers
         }
 
         public async Task<Response<Transaction?>> GetByIdAsync(GetTransactionByIdRequest request)
-            => await _client.GetFromJsonAsync<Response<Transaction?>>($"v1/transactions/{request.Id}")
+            => await _client.GetFromJsonAsync<Response<Transaction?>>($"v1/transactions/")
                ?? new Response<Transaction?>(null, 400, "Não foi possível obter a transação");
 
         //O datetime no .NET sao structs. Isso implica que devemos modificar o GetTransactions para que passe dados corretos. Nao os padroes do Datetime.

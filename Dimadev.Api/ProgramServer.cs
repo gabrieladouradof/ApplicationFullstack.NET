@@ -1,11 +1,6 @@
 using Dima.Core.Models;
 using Dima.Core.Requests.Categories;
 using Dimadev.Api.Data;
-using Microsoft.EntityFrameworkCore;
-using System.Reflection;
-using Dimadev.Core.Responses;
-using Dima.Core.Handlers;
-using Dima.Api.Handlers;
 using Dimadev.Api.Endpoints;
 using Microsoft.AspNetCore.Identity;
 using Dimadev.Api.Models;

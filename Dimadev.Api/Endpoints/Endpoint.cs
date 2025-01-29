@@ -1,8 +1,10 @@
 ﻿using Dima.Api.Endpoints.Categories;
+using Dima.Api.Endpoints.Orders;
 using Dima.Api.Endpoints.Transactions;
 using Dimadev.Api.Common.Api;
 using Dimadev.Api.Endpoints.Categories;
 using Dimadev.Api.Endpoints.Identity;
+using Dimadev.Api.Endpoints.Orders;
 using Dimadev.Api.Endpoints.Reports;
 using Dimadev.Api.Models;
 
@@ -51,6 +53,27 @@ namespace Dimadev.Api.Endpoints
                 .MapEndpoint<GetIncomesByCategoryEndpoint>()
                 .MapEndpoint<GetExpensesByCategoryEndpoint>()
                 .MapEndpoint<GetFinancialSummaryEndpoint>();
+
+            endpoints.MapGroup("v1/products")
+                .WithTags("Products")
+                .RequireAuthorization()
+                .MapEndpoint<GetAllProductsEndpoint>()
+                .MapEndpoint<GetProductBySlugEndpoint>();
+
+            endpoints.MapGroup("v1/vouchers")
+                .WithTags("Vouchers")
+                .RequireAuthorization()
+                .MapEndpoint<GetVoucherByNumberEndpoint>();
+
+            endpoints.MapGroup("v1/orders")
+                .WithTags("Orders")
+                .RequireAuthorization()
+                .MapEndpoint<GetAllOrdersEndpoint>()
+                .MapEndpoint<GetOrderByNumberEndpoint>()                
+                .MapEndpoint<CreateOrderEndpoint>()
+                .MapEndpoint<CancelOrderEndpoint>()
+                .MapEndpoint<PayOrderEndpoint>()
+                .MapEndpoint<RefundOrderEndpoint>();
         }
         private static IEndpointRouteBuilder MapEndpoint<TEndpoint> (this IEndpointRouteBuilder app)
             where TEndpoint : IEndpoint

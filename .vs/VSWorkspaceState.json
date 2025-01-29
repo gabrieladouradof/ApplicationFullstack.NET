@@ -2,13 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Dimadev.Api",
-    "\\Dimadev.Api\\Data",
-    "\\Dimadev.Api\\Data\\Mappings",
-    "\\Dimadev.Api\\Handlers",
+    "\\Dimadev.Api\\Endpoints",
+    "\\Dimadev.Api\\Endpoints\\Orders",
     "\\Dimadev.Core",
     "\\Dimadev.Core\\Enums",
-    "\\Dimadev.Core\\Models"
+    "\\Dimadev.Core\\Models",
+    "\\Dimadev.Web",
+    "\\Dimadev.Web\\Pages",
+    "\\Dimadev.Web\\Pages\\Transactions"
   ],
-  "SelectedNode": "\\Dimadev.Api\\Handlers\\TransactionHandler.cs",
+  "SelectedNode": "\\Dimadev.Api\\Dimadev.Api.csproj",
   "PreviewInSolutionExplorer": false
 }

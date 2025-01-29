@@ -94,7 +94,7 @@ namespace Dimadev.Web.Pages.Transactions
                     PageSize = 1000
                 };
             }
-            catch (Exception ex)
+            catch
             {
                 IsBusy = false;
 

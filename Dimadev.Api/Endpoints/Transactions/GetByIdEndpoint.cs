@@ -14,7 +14,7 @@ namespace Dima.Api.Endpoints.Transactions
             .WithName("Transactions: Get By Id")
             .WithSummary("Recupera uma transacao")
             .WithDescription("Recupera uma transacao")
-            .WithOrder(3)
+            .WithOrder(4)
             .Produces<Response<Transaction?>>();
 
         private static async Task<IResult> HandleAsync

@@ -2,7 +2,6 @@
 using Dima.Core.Handlers;
 using Dimadev.Core.Requests.Reports;
 using Dimadev.Core.Handlers;
-using Dimadev.Core.Requests.Reports;
 using Microsoft.AspNetCore.Components;
 using MudBlazor;
 using Dimadev.Core.Models.Reports;
@@ -38,6 +37,7 @@ public partial class IncomesByCategoryChartComponent : ComponentBase
     private async Task GetIncomesByCategoryAsync()
     {
         var request = new GetIncomesByCategoryRequest();
+
         var result = await Handler.GetIncomesByCategoryReportAsync(request);
         if (!result.IsSucess || result.Data is null)
         {

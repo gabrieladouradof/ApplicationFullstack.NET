@@ -14,6 +14,7 @@ namespace Dimadev.Api.Endpoints.Reports
             => app.MapGet("/incomes-expenses", HandleAsync)
             .Produces<Response<List<ExpensesByCategory>?>>();
 
+
         private static async Task<IResult> HandleAsync(
             ClaimsPrincipal user,
             IReportHandler handler)

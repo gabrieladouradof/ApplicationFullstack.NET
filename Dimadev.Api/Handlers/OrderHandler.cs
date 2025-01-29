@@ -273,7 +273,7 @@ namespace Dimadev.Api.Handlers;
             }
 
         }
-        public async Task<Response<Order?>> GetByNumber(GetOrderByNumberRequest request)
+        public async Task<Response<Order?>> GetByNumberAsync(GetOrderByNumberRequest request)
         {
             try
             {

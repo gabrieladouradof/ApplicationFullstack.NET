@@ -6,6 +6,7 @@ using Dima.Core.Models;
 using Dimadev.Api.Data;
 using Dima.Core.Requests.Transactions;
 using Dimadev.Core.Common.Extensions;
+using System.Text.Json;
 
 namespace Dima.Api.Handlers
 {
@@ -35,32 +36,10 @@ namespace Dima.Api.Handlers
 
                 return new Response<Transaction>(transaction, 201, "Transacao criada com sucesso.");
             }
-            catch (Exception ex) 
-            {
+            catch (Exception ex)
+            { 
                 return new Response<Transaction>(null, 500, $"Erro ao criar a transacao: {ex.Message}");
-            }
-        }
-        public async Task<Response<Transaction?>> DeleteAsync(DeleteTransactionRequest request)
-        {
-            try
-            {
-                var transaction = await context
-                    .Transactions.FirstOrDefaultAsync(x => x.Id == request.Id && x.UserId == request.UserId);
-
-                if (transaction is null)
-                    return new Response<Transaction?>(null, 404, "Transacao nao encontrada");
-
-                //transaction.PairdOrReceivedAt = request.PaidOrReceivedAt;
-
-                context.Transactions.Remove(transaction);
-                await context.SaveChangesAsync();
-
-                return new Response<Transaction?>(transaction);
-
-            }
-            catch
-            {
-                return new Response<Transaction?>(null, 500, "Nao foi possivel recuperacao sua transacao");
+              
             }
         }
 
@@ -95,6 +74,31 @@ namespace Dima.Api.Handlers
             }
         }
 
+        public async Task<Response<Transaction?>> DeleteAsync(DeleteTransactionRequest request)
+        {
+            try
+            {
+                var transaction = await context
+                    .Transactions.FirstOrDefaultAsync(x => x.Id == request.Id && x.UserId == request.UserId);
+
+                if (transaction is null)
+                    return new Response<Transaction?>(null, 404, "Transacao nao encontrada");
+
+              //  transaction.PaidOrReceivedAt = request.PaidOrReceivedAt;
+
+                context.Transactions.Remove(transaction);
+                await context.SaveChangesAsync();
+
+                return new Response<Transaction?>(transaction);
+
+            }
+            catch
+            {
+                return new Response<Transaction?>(null, 500, "Nao foi possivel recuperacao sua transacao");
+            }
+        }
+
+        
         public async Task<Response<Transaction?>> GetByIdAsync (GetTransactionByIdRequest request)
         {
             try
@@ -128,10 +132,10 @@ namespace Dima.Api.Handlers
             {
                 var query = context.Transactions.AsNoTracking().Where(x =>
 
-                x.CreatedAt >= request.StartDate &&
-                x.CreatedAt <= request.EndDate &&
+                x.PaidOrReceivedAt >= request.StartDate &&
+                x.PaidOrReceivedAt <= request.EndDate &&
                 x.UserId == request.UserId)
-                    .OrderBy(x => x.CreatedAt);
+                    .OrderBy(x => x.PaidOrReceivedAt);
 
                 var transactions = await query.Skip((request.PageNumber - 1) * request.PageSize)
                     .Take(request.PageSize).ToListAsync();

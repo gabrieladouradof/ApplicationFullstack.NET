@@ -31,7 +31,5 @@ namespace Dima.Api.Endpoints.Transactions
                 : TypedResults.BadRequest(result.Data);
 
         }
-
-
     }
 }

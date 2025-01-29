@@ -559,7 +559,286 @@
         }
       }
     },
-    "/incomes-expenses": {
+    "/v1/orders": {
+      "get": {
+        "tags": [
+          "Orders"
+        ],
+        "summary": "Recupera todos os pedidos.",
+        "description": "Recupera todos os pedidos.",
+        "operationId": "Orders: Get All",
+        "parameters": [
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 25
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dimadev.Core.Responses.PagedResponse`1[[System.Collections.Generic.List`1[[Dimadev.Core.Models.Order, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Orders"
+        ],
+        "summary": "Cria um novo pedido.",
+        "operationId": "Orders: Create a new order",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Dimadev.Core.Requests.Orders.CreateOrderRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/v1/orders/{number}": {
+      "post": {
+        "tags": [
+          "Orders"
+        ],
+        "summary": "Recupera um pedido pelo número",
+        "description": "Recupera um pedido pelo número",
+        "operationId": "Orders: Get By Number",
+        "parameters": [
+          {
+            "name": "number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dimadev.Core.Responses.Response`1[[Dimadev.Core.Models.Order, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/orders/{id}/cancel": {
+      "post": {
+        "tags": [
+          "Orders"
+        ],
+        "summary": "Cancela um pedido.",
+        "description": "Cancela um pedido",
+        "operationId": "Orders: Cancel order",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dimadev.Core.Responses.Response`1[[Dimadev.Core.Models.Order, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/orders/{id}/pay": {
+      "post": {
+        "tags": [
+          "Orders"
+        ],
+        "summary": "Paga um pedido",
+        "description": "Paga um pedido",
+        "operationId": "Orders: Pay and order",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Dimadev.Core.Requests.Orders.PayOrderRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dimadev.Core.Responses.Response`1[[Dimadev.Core.Models.Voucher, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/orders/{id}/refund": {
+      "post": {
+        "tags": [
+          "Orders"
+        ],
+        "summary": "Estorna um pedido",
+        "description": "Estorna um pedido",
+        "operationId": "Orders: Refund an order",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dimadev.Core.Responses.Response`1[[Dimadev.Core.Models.Voucher, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/products": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "summary": "Recupera todos os produtos",
+        "description": "Recupera todos os produtos",
+        "operationId": "Products: Get All",
+        "parameters": [
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 25
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dimadev.Core.Responses.PagedResponse`1[[System.Collections.Generic.List`1[[Dimadev.Core.Models.Product, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/products/{slug}": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "summary": "Recupera um produto",
+        "description": "Recupera um produto",
+        "operationId": "Products: Get By Slug",
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dimadev.Core.Responses.Response`1[[Dimadev.Core.Models.Product, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/reports/incomes-expenses": {
       "get": {
         "tags": [
           "Reports"
@@ -578,7 +857,7 @@
         }
       }
     },
-    "/incomes": {
+    "/v1/reports/incomes": {
       "get": {
         "tags": [
           "Reports"
@@ -597,7 +876,7 @@
         }
       }
     },
-    "/expenses": {
+    "/v1/reports/expenses": {
       "get": {
         "tags": [
           "Reports"
@@ -616,7 +895,7 @@
         }
       }
     },
-    "/summary": {
+    "/v1/reports/summary": {
       "get": {
         "tags": [
           "Reports"
@@ -821,6 +1100,38 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Dimadev.Core.Responses.Response`1[[Dima.Core.Models.Transaction, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/vouchers/{number}": {
+      "get": {
+        "tags": [
+          "Vouchers"
+        ],
+        "summary": "Recupera um voucher",
+        "description": "Recupera um voucher",
+        "operationId": "Voucher: Get By Number",
+        "parameters": [
+          {
+            "name": "number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dimadev.Core.Responses.Response`1[[Dimadev.Core.Models.Voucher, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"
                 }
               }
             }
@@ -1038,6 +1349,110 @@
         },
         "additionalProperties": false
       },
+      "Dimadev.Core.Enums.EOrderStatus": {
+        "enum": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "Dimadev.Core.Enums.EPaymentGateway": {
+        "enum": [
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "Dimadev.Core.Models.Order": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "number": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "externalReference": {
+            "type": "string",
+            "nullable": true
+          },
+          "gateway": {
+            "$ref": "#/components/schemas/Dimadev.Core.Enums.EPaymentGateway"
+          },
+          "status": {
+            "$ref": "#/components/schemas/Dimadev.Core.Enums.EOrderStatus"
+          },
+          "productId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "product": {
+            "$ref": "#/components/schemas/Dimadev.Core.Models.Product"
+          },
+          "voucherId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "voucher": {
+            "$ref": "#/components/schemas/Dimadev.Core.Models.Voucher"
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "total": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dimadev.Core.Models.Product": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "slug": {
+            "type": "string",
+            "nullable": true
+          },
+          "isActive": {
+            "type": "boolean"
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
       "Dimadev.Core.Models.Reports.ExpensesByCategory": {
         "type": "object",
         "properties": {
@@ -1078,6 +1493,72 @@
           "incomes": {
             "type": "number",
             "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dimadev.Core.Models.Voucher": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "number": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "isActive": {
+            "type": "boolean"
+          },
+          "amount": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dimadev.Core.Requests.Orders.CreateOrderRequest": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "productId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "voucherId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dimadev.Core.Requests.Orders.PayOrderRequest": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "externalReference": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1146,6 +1627,74 @@
         },
         "additionalProperties": false
       },
+      "Dimadev.Core.Responses.PagedResponse`1[[System.Collections.Generic.List`1[[Dimadev.Core.Models.Order, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dimadev.Core.Models.Order"
+            },
+            "nullable": true
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "currentPage": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalPages": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "pageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalCount": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dimadev.Core.Responses.PagedResponse`1[[System.Collections.Generic.List`1[[Dimadev.Core.Models.Product, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dimadev.Core.Models.Product"
+            },
+            "nullable": true
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "currentPage": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalPages": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "pageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalCount": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "Dimadev.Core.Responses.Response`1[[Dima.Core.Models.Category, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
         "type": "object",
         "properties": {
@@ -1164,6 +1713,45 @@
         "properties": {
           "data": {
             "$ref": "#/components/schemas/Dima.Core.Models.Transaction"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dimadev.Core.Responses.Response`1[[Dimadev.Core.Models.Order, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "$ref": "#/components/schemas/Dimadev.Core.Models.Order"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dimadev.Core.Responses.Response`1[[Dimadev.Core.Models.Product, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "$ref": "#/components/schemas/Dimadev.Core.Models.Product"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dimadev.Core.Responses.Response`1[[Dimadev.Core.Models.Voucher, Dimadev.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "$ref": "#/components/schemas/Dimadev.Core.Models.Voucher"
           },
           "message": {
             "type": "string",
