@@ -624,7 +624,7 @@
       }
     },
     "/v1/orders/{number}": {
-      "post": {
+      "get": {
         "tags": [
           "Orders"
         ],

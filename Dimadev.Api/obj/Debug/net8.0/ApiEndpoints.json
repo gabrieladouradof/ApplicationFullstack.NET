@@ -711,7 +711,7 @@
     "ContainingType": "Dimadev.Api.Endpoints.Orders.GetOrderByNumberEndpoint",
     "Method": "HandleAsync",
     "RelativePath": "v1/orders/{number}",
-    "HttpMethod": "POST",
+    "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
     "Parameters": [
