@@ -49,9 +49,9 @@ namespace Dimadev.Web.Pages.Transactions
             {
                 IsBusy = false;
             }
-            #endregion
-
         }
+            #endregion
+        
 
         #region Overrides
         protected override async Task OnInitializedAsync()

@@ -11,6 +11,7 @@ namespace Dimadev.Web.Security
     {
         private bool _isAuthenticated = false; //VARIAVEL DE AUTENTICACAO
 
+        
         private readonly HttpClient _client = clientFactory.CreateClient(Configuration.HttpClientName);
         public async Task<bool> CheckAuthenticatedAsync()
         { 

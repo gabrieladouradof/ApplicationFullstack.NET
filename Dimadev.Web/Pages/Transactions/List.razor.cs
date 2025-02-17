@@ -4,7 +4,6 @@ using Dima.Core.Requests.Transactions;
 using Dimadev.Core.Common.Extensions;
 using Microsoft.AspNetCore.Components;
 using MudBlazor;
-using System.Security.Cryptography.X509Certificates;
 
 namespace Dimadev.Web.Pages.Transactions
 {
@@ -76,8 +75,6 @@ namespace Dimadev.Web.Pages.Transactions
                    || transaction.Title.Contains(SearchTerm, StringComparison.OrdinalIgnoreCase);
         };
 
-
-
         #endregion
 
         #region Private Methods
@@ -97,7 +94,6 @@ namespace Dimadev.Web.Pages.Transactions
             catch
             {
                 IsBusy = false;
-
             }
         }
 
@@ -130,7 +126,5 @@ namespace Dimadev.Web.Pages.Transactions
         }
 
         #endregion
-
-
     }
 }
