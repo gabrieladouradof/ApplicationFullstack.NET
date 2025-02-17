@@ -1075,8 +1075,8 @@ C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\Dimadev.Web.dll
 C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\refint\Dimadev.Web.dll
 C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\Dimadev.Web.pdb
 C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\ref\Dimadev.Web.dll
-C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\compressed\y9hmetrp37-xwljisuyyn.gz
-C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\compressed\ewbrmhdrn6-8j7xpgp5b0.gz
-C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\compressed\6m5cbd5my8-pp5mt12z0q.gz
-C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\compressed\pr95mhudec-6uh0m8v4tw.gz
-C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\compressed\a7gl9k3fdx-sr6i2cpvi3.gz
+C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\compressed\y9hmetrp37-nn72xxswp3.gz
+C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\compressed\ewbrmhdrn6-wt1soyej8b.gz
+C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\compressed\6m5cbd5my8-sx1d9oklt0.gz
+C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\compressed\pr95mhudec-7mjo09ggak.gz
+C:\dev\dimadev\dimadev.web\obj\Debug\net8.0\compressed\a7gl9k3fdx-ws34chzl3v.gz

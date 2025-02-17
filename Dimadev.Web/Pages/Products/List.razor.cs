@@ -29,7 +29,7 @@ namespace Dimadev.Web.Pages.Products
             try
             {
                 var request = new GetAllProductsRequest();
-                var result = await Handler.GetAllAsync(request);
+                var result = await ProductHandler.GetAllAsync(request);
                     
                 if(result.IsSucess)
                 {
