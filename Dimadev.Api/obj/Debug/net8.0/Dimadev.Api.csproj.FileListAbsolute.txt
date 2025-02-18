@@ -143,4 +143,3 @@ C:\dev\dimadev\Dimadev.api\bin\Debug\net8.0\System.IO.Pipelines.dll
 C:\dev\dimadev\Dimadev.api\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 C:\dev\dimadev\Dimadev.api\bin\Debug\net8.0\System.Text.Json.dll
 C:\dev\dimadev\Dimadev.api\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
-C:\dev\dimadev\Dimadev.api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

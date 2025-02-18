@@ -10,7 +10,6 @@ namespace Dimadev.Web.Pages.Orders
     public partial class CheckoutPage : ComponentBase
     {
         #region Parameters
-
         [Parameter] public string ProductSlug { get; set; } = string.Empty;
         [SupplyParameterFromQuery(Name = "voucher")] public string? VoucherNumber { get; set; }
 
@@ -38,7 +37,6 @@ namespace Dimadev.Web.Pages.Orders
         [Inject] public IVoucherHandler VoucherHandler { get; set; } = null!;
         [Inject] public NavigationManager NavigationManager { get; set; } = null!;
         [Inject] public ISnackbar Snackbar { get; set; } = null!;
-
         #endregion
 
         #region Methods
@@ -46,7 +44,6 @@ namespace Dimadev.Web.Pages.Orders
         {
             // Recuperar o Produto
             // Recuperar o Voucher (n tao importante)
-
             try
             {
                 var result = await ProductHandler.GetBySlugAsync(new GetProductBySlugRequest
@@ -106,9 +103,40 @@ namespace Dimadev.Web.Pages.Orders
                 IsValid = true;
                 Total = Product.Price - (Voucher?.Amount ?? 0);
             }
-            #endregion
+        }
 
-            private static char AllUpperCase(char c) => c.ToString().ToUpperInvariant()[0];
+        public async Task OnValidSubmitAsync()
+        {
+            IsBusy = true;
+
+            try
+            {
+                var request = new CreateOrderRequest
+                {
+                    ProductId = Product!.Id,
+                    VoucherId = Voucher?.Id ?? null
+                };
+
+                var result = await OrderHandler.CreateAsync(request);
+
+                if (result.IsSucess)
+                    NavigationManager.NavigateTo($"/pedidos/{result.Data!.Number}");
+                else
+                    Snackbar.Add(result.Message, Severity.Error);
+            }
+            catch (Exception ex)
+            {
+                Snackbar.Add(ex.Message, Severity.Error);
+            }
+            finally
+            {
+                IsBusy = false;
+            }
+        }
+
+        #endregion
+        private static char AllUpperCase(char c) => c.ToString().ToUpperInvariant()[0];
+
         }
     }
-}
+

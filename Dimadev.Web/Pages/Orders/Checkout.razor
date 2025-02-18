@@ -2,7 +2,9 @@
 @inherits CheckoutPage
 
 <MudContainer class="mt-16" MaxWidth="MaxWidth.Medium">
+
     <MudText Typo ="Typo.h3" Align="Align.Center" GutterBottom="true">Checkout</MudText>
+
     <MudGrid Class="mt-16" Justify="Justify.Center">
         <MudItem xs="12" sm="12" md="10" lg="8" xl="6" xxl="5">
             <MudPaper Class="d-flex flex-column" Outlined="true">
@@ -18,9 +20,34 @@
                        
                     </MudListItem>
                     <MudDivider/>
-                    VOUCHER
+                    
+                    <MudListItem Icon="@(Voucher is null ? Icons.Material.Filled.Discount : Icons.Material.Filled.CheckCircle)"></MudListItem>
+
+                    <MudTextField T="string"
+                        Disabled="@(Voucher is not null)"
+                        Placeholder ="Cupom de Desconto"
+                        @bind-Value="@VoucherNumber"
+                        Mask="Mask"
+                        Adornment="Adornment.End"
+                        AdornmentIcon="@Icons.Material.Filled.FactCheck"
+                        OnAdornmentClick="@(() =>{ })"
+                        />
+
+                        <MudListItem>
+                            <MudListItem Icon="@Icons.Material.Filled.MoneyOff">
+
+                                <div class="d-flex"
+                                <MudText>Desconto</MudText>
+                                <MudText Class="ml-auto">
+                                    @(Voucher?.Amount.ToString("C"))
+                                </MudText>
+                                </div>
+
+                            </MudListItem>
+                        </MudListItem>
+
                     <MudDivider />
-                    <div class="mt-auto">
+                    <div class="mt-auto pa-4">
                         <MudText>Total: </MudText>
                         <MudText Class="ml-auto"></MudText>
                         <strong>
@@ -29,7 +56,9 @@
                     </div>
                 </MudList>
                 </MudPaper>
+
                 <MudButton
+                    @onclick="OnValidSubmitAsync"
                     Variant="Variant.Filled"
                     Color="Color.Primary"
                     Disabled="@(!IsValid)"

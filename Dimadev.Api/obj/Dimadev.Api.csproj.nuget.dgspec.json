@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\dimadev\\Dimadev.api\\Dimadev.Api.csproj": {}
+    "C:\\dev\\dimadev\\dimadev.api\\Dimadev.Api.csproj": {}
   },
   "projects": {
-    "C:\\dev\\dimadev\\Dimadev.api\\Dimadev.Api.csproj": {
+    "C:\\dev\\dimadev\\dimadev.api\\Dimadev.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\dimadev\\Dimadev.api\\Dimadev.Api.csproj",
+        "projectUniqueName": "C:\\dev\\dimadev\\dimadev.api\\Dimadev.Api.csproj",
         "projectName": "Dimadev.Api",
-        "projectPath": "C:\\dev\\dimadev\\Dimadev.api\\Dimadev.Api.csproj",
+        "projectPath": "C:\\dev\\dimadev\\dimadev.api\\Dimadev.Api.csproj",
         "packagesPath": "C:\\Users\\GabrielaDourado\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\dimadev\\Dimadev.api\\obj\\",
+        "outputPath": "C:\\dev\\dimadev\\dimadev.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

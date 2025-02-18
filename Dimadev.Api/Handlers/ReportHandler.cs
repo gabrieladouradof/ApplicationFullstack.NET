@@ -13,6 +13,7 @@ namespace Dimadev.Api.Handlers
     {
         public async Task<Response<List<IncomesAndExpenses>?>> GetIncomesAndExpensesReportAsync(GetIncomesAndExpensesRequest request)
         {
+            await Task.Delay(1280); 
             try
             {
                 var data = await context
@@ -47,7 +48,8 @@ namespace Dimadev.Api.Handlers
             }
             catch
             {
-                return new Response<List<IncomesByCategory>?>(null, 500, "Não foi possível obter as entradas por categorias");
+                return new Response<List<IncomesByCategory>?>(null, 500, 
+                    "Não foi possível obter as entradas por categorias");
             }
 
         }

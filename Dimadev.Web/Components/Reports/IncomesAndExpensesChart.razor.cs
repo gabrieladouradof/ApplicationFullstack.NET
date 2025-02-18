@@ -60,6 +60,8 @@ public partial class IncomesAndExpensesChartComponent : ComponentBase
                 new ChartSeries { Name = "Receitas", Data = incomes.ToArray() },
                 new ChartSeries { Name = "Saídas", Data = expenses.ToArray() }
             ];
+
+        StateHasChanged();
     }
     #endregion
     

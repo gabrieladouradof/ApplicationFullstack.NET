@@ -1,0 +1,45 @@
+﻿@page "/pedidos/{number}"
+@inherits DetailsPage
+
+@if(Order is not null)
+{
+    <h1>Detalhes do Pedido</h1>
+    <br>
+    <h4>Número do Pedido</h4>
+    <p>@Order.Number</p>
+    <br>
+    <h4>Data do Pedido</h4>
+    <p>@Order.CreatedAt.ToString("dd/MM.yyyy")</p>
+    <br>
+    <h4>Última Atualização</h4>
+    <p>@Order.UpdatedAt.ToString("dd/MM/yyyy")</p>
+    <br>
+    <h4>Produto</h4>
+    <p>@Order.Product.Title</p>
+    <br>
+    <h4>Valor do Produto</h4>
+    <p>@Order.Product.Price.ToString("C")</p>
+    <br>
+    <h4>Desconto</h4>
+    <p>@(Order.Voucher is null ? "Nao aplicado" : Order.Voucher.Amount.ToString("C"))</p>
+    <br>
+
+    <h4>Valor Total</h4>
+    <p>@Order.Total.ToString("C")</p>
+    <br>
+
+    <h4>Situaçao</h4>
+    <p>--</p>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p>AÇOES</p>
+}
+else
+{
+    <MudSkeleton Animation="Animation.Wave"/>
+    <MudSkeleton Animation="Animation.Wave" />
+    <MudSkeleton Animation="Animation.Wave" />
+}

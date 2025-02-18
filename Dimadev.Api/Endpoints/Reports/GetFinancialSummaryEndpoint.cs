@@ -12,7 +12,7 @@ namespace Dimadev.Api.Endpoints.Reports
     {
         public static void Map(IEndpointRouteBuilder app)
             => app.MapGet("/summary", HandleAsync)
-            .Produces<Response<List<ExpensesByCategory>?>>();
+            .Produces<Response<List<FinancialSummary>?>>();
 
         private static async Task<IResult> HandleAsync(
             ClaimsPrincipal user,
