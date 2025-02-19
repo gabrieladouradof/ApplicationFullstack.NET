@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dimadev.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+870d559bb691eff22d9074b6f31f14de92d89b77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9cf6cf6e734e589a69e9cab2eb9a961ec79e155")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dimadev.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dimadev.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
