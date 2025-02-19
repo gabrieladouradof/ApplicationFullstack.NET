@@ -1,0 +1,20 @@
+﻿@inherits OrderActionComponent
+
+@switch (Order.Status)
+{
+    case Core.Enums.EOrderStatus.Paid:
+    <MudButton FullWidth="true" Color="Color.Warning" Variant="Variant.Outlined" OnClick="OnRefundButtonClickedAsync">SOLICITAR ESTORNO</MudButton>
+        break;
+
+    case Core.Enums.EOrderStatus.WaitingPayment:
+        <MudButton FullWidth="true" Color="Color.Success" Variant="Variant.Filled" Size="Size.Large" Class="mb-4"
+        OnClick="OnPayButtonClickedAsync"
+        >PAGAR COM STRIPE</MudButton>
+
+        <MudButton FullWidth="true" Color="Color.Error" Variant="Variant.Outlined" >CANCELAR O PEDIDO</MudButton>
+        break;
+
+    default:
+        <MudText></MudText>
+        break;
+}

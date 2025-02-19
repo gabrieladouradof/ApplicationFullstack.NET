@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "C:\\dev\\dimadev\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|c:\\dev\\dimadev\\dimadev.web\\components\\orders\\orderaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|solutionrelative:dimadev.web\\components\\orders\\orderaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|c:\\dev\\dimadev\\dimadev.web\\components\\orders\\orderstatus.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|solutionrelative:dimadev.web\\components\\orders\\orderstatus.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|c:\\dev\\dimadev\\dimadev.web\\components\\orders\\orderstatus.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|solutionrelative:dimadev.web\\components\\orders\\orderstatus.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|c:\\dev\\dimadev\\dimadev.web\\pages\\orders\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|solutionrelative:dimadev.web\\pages\\orders\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|c:\\dev\\dimadev\\dimadev.web\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|solutionrelative:dimadev.web\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|c:\\dev\\dimadev\\dimadev.web\\pages\\orders\\details.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|solutionrelative:dimadev.web\\pages\\orders\\details.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|c:\\dev\\dimadev\\dimadev.web\\pages\\transactions\\create.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|solutionrelative:dimadev.web\\pages\\transactions\\create.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|c:\\dev\\dimadev\\dimadev.web\\pages\\transactions\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|solutionrelative:dimadev.web\\pages\\transactions\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|c:\\dev\\dimadev\\dimadev.web\\pages\\transactions\\list.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|solutionrelative:dimadev.web\\pages\\transactions\\list.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|c:\\dev\\dimadev\\dimadev.web\\components\\reports\\incomesbycategorychart.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|solutionrelative:dimadev.web\\components\\reports\\incomesbycategorychart.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|c:\\dev\\dimadev\\dimadev.web\\components\\reports\\incomesbycategorychart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|solutionrelative:dimadev.web\\components\\reports\\incomesbycategorychart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|c:\\dev\\dimadev\\dimadev.web\\pages\\categories\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|solutionrelative:dimadev.web\\pages\\categories\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|c:\\dev\\dimadev\\dimadev.web\\pages\\orders\\checkout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -95,14 +135,6 @@
       "RelativeMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|solutionrelative:dimadev.web\\components\\reports\\incomesandexpenseschart.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|c:\\dev\\dimadev\\dimadev.web\\components\\reports\\incomesbycategorychart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|solutionrelative:dimadev.web\\components\\reports\\incomesbycategorychart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|c:\\dev\\dimadev\\dimadev.web\\components\\reports\\incomesbycategorychart.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|solutionrelative:dimadev.web\\components\\reports\\incomesbycategorychart.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|c:\\dev\\dimadev\\dimadev.web\\components\\reports\\incomesandexpenseschart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|solutionrelative:dimadev.web\\components\\reports\\incomesandexpenseschart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -153,14 +185,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7EBA11E4-896F-415E-BE8B-036FE6BA71F4}|Dimadev.Core\\Dimadev.Core.csproj|c:\\dev\\dimadev\\dimadev.core\\requests\\orders\\payorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EBA11E4-896F-415E-BE8B-036FE6BA71F4}|Dimadev.Core\\Dimadev.Core.csproj|solutionrelative:dimadev.core\\requests\\orders\\payorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|c:\\dev\\dimadev\\dimadev.web\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|solutionrelative:dimadev.web\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|c:\\dev\\dimadev\\dimadev.web\\pages\\categories\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E196A139-E5A5-4D5B-B37C-8C10B776C261}|Dimadev.Web\\Dimadev.Web.csproj|solutionrelative:dimadev.web\\pages\\categories\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -187,32 +211,96 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "OrderAction.razor",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Orders\\OrderAction.razor",
+              "RelativeDocumentMoniker": "Dimadev.Web\\Components\\Orders\\OrderAction.razor",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Orders\\OrderAction.razor",
+              "RelativeToolTip": "Dimadev.Web\\Components\\Orders\\OrderAction.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T16:51:20.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderStatus.razor.cs",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Orders\\OrderStatus.razor.cs",
+              "RelativeDocumentMoniker": "Dimadev.Web\\Components\\Orders\\OrderStatus.razor.cs",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Orders\\OrderStatus.razor.cs*",
+              "RelativeToolTip": "Dimadev.Web\\Components\\Orders\\OrderStatus.razor.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T16:37:45.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderStatus.razor",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Orders\\OrderStatus.razor",
+              "RelativeDocumentMoniker": "Dimadev.Web\\Components\\Orders\\OrderStatus.razor",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Orders\\OrderStatus.razor*",
+              "RelativeToolTip": "Dimadev.Web\\Components\\Orders\\OrderStatus.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T16:37:19.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.razor.cs",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Transactions\\Create.razor.cs",
+              "RelativeDocumentMoniker": "Dimadev.Web\\Pages\\Transactions\\Create.razor.cs",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Transactions\\Create.razor.cs",
+              "RelativeToolTip": "Dimadev.Web\\Pages\\Transactions\\Create.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T19:10:25.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "List.razor",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Transactions\\List.razor",
+              "RelativeDocumentMoniker": "Dimadev.Web\\Pages\\Transactions\\List.razor",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Transactions\\List.razor",
+              "RelativeToolTip": "Dimadev.Web\\Pages\\Transactions\\List.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T19:10:23.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Details.razor",
               "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Orders\\Details.razor",
               "RelativeDocumentMoniker": "Dimadev.Web\\Pages\\Orders\\Details.razor",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Orders\\Details.razor",
-              "RelativeToolTip": "Dimadev.Web\\Pages\\Orders\\Details.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Orders\\Details.razor*",
+              "RelativeToolTip": "Dimadev.Web\\Pages\\Orders\\Details.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-18T18:42:52.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Details.razor.cs",
               "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Orders\\Details.razor.cs",
               "RelativeDocumentMoniker": "Dimadev.Web\\Pages\\Orders\\Details.razor.cs",
               "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Orders\\Details.razor.cs",
               "RelativeToolTip": "Dimadev.Web\\Pages\\Orders\\Details.razor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T18:42:41.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "ExpensesByCategoryChart.razor.cs",
               "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Reports\\ExpensesByCategoryChart.razor.cs",
               "RelativeDocumentMoniker": "Dimadev.Web\\Components\\Reports\\ExpensesByCategoryChart.razor.cs",
@@ -220,38 +308,11 @@
               "RelativeToolTip": "Dimadev.Web\\Components\\Reports\\ExpensesByCategoryChart.razor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:43:53.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T15:43:53.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IReportHandler.cs",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Core\\Handlers\\IReportHandler.cs",
-              "RelativeDocumentMoniker": "Dimadev.Core\\Handlers\\IReportHandler.cs",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Core\\Handlers\\IReportHandler.cs",
-              "RelativeToolTip": "Dimadev.Core\\Handlers\\IReportHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:32:10.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GetFinancialSummaryEndpoint.cs",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Api\\Endpoints\\Reports\\GetFinancialSummaryEndpoint.cs",
-              "RelativeDocumentMoniker": "Dimadev.Api\\Endpoints\\Reports\\GetFinancialSummaryEndpoint.cs",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Api\\Endpoints\\Reports\\GetFinancialSummaryEndpoint.cs",
-              "RelativeToolTip": "Dimadev.Api\\Endpoints\\Reports\\GetFinancialSummaryEndpoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:26:49.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "Endpoint.cs",
               "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Api\\Endpoints\\Endpoint.cs",
               "RelativeDocumentMoniker": "Dimadev.Api\\Endpoints\\Endpoint.cs",
@@ -259,12 +320,11 @@
               "RelativeToolTip": "Dimadev.Api\\Endpoints\\Endpoint.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAQwDwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T16:52:19.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T16:52:19.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "ReportHandler.cs",
               "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Handlers\\ReportHandler.cs",
               "RelativeDocumentMoniker": "Dimadev.Web\\Handlers\\ReportHandler.cs",
@@ -272,259 +332,72 @@
               "RelativeToolTip": "Dimadev.Web\\Handlers\\ReportHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:34:55.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T15:34:55.274Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "Checkout.razor.cs",
               "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Orders\\Checkout.razor.cs",
               "RelativeDocumentMoniker": "Dimadev.Web\\Pages\\Orders\\Checkout.razor.cs",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Orders\\Checkout.razor.cs*",
-              "RelativeToolTip": "Dimadev.Web\\Pages\\Orders\\Checkout.razor.cs*",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Orders\\Checkout.razor.cs",
+              "RelativeToolTip": "Dimadev.Web\\Pages\\Orders\\Checkout.razor.cs",
               "ViewState": "AgIAAG8AAAAAAAAAAAAAAIAAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T16:53:35.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T16:53:35.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Checkout.razor",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Orders\\Checkout.razor",
-              "RelativeDocumentMoniker": "Dimadev.Web\\Pages\\Orders\\Checkout.razor",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Orders\\Checkout.razor*",
-              "RelativeToolTip": "Dimadev.Web\\Pages\\Orders\\Checkout.razor*",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAADwAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\_Imports.razor",
+              "RelativeDocumentMoniker": "Dimadev.Web\\_Imports.razor",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\_Imports.razor*",
+              "RelativeToolTip": "Dimadev.Web\\_Imports.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-17T16:53:52.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GetIncomesAndExpensesEndpoint.cs",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Api\\Endpoints\\Reports\\GetIncomesAndExpensesEndpoint.cs",
-              "RelativeDocumentMoniker": "Dimadev.Api\\Endpoints\\Reports\\GetIncomesAndExpensesEndpoint.cs",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Api\\Endpoints\\Reports\\GetIncomesAndExpensesEndpoint.cs",
-              "RelativeToolTip": "Dimadev.Api\\Endpoints\\Reports\\GetIncomesAndExpensesEndpoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:26:51.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductHandler.cs",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Handlers\\ProductHandler.cs",
-              "RelativeDocumentMoniker": "Dimadev.Web\\Handlers\\ProductHandler.cs",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Handlers\\ProductHandler.cs",
-              "RelativeToolTip": "Dimadev.Web\\Handlers\\ProductHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T16:43:07.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "List.razor",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Products\\List.razor",
-              "RelativeDocumentMoniker": "Dimadev.Web\\Pages\\Products\\List.razor",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Products\\List.razor",
-              "RelativeToolTip": "Dimadev.Web\\Pages\\Products\\List.razor",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAACoAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-17T16:03:31.5Z",
+              "WhenOpened": "2025-01-09T17:55:38.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "GetProductBySlugRequest.cs",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Core\\Requests\\Orders\\GetProductBySlugRequest.cs",
-              "RelativeDocumentMoniker": "Dimadev.Core\\Requests\\Orders\\GetProductBySlugRequest.cs",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Core\\Requests\\Orders\\GetProductBySlugRequest.cs",
-              "RelativeToolTip": "Dimadev.Core\\Requests\\Orders\\GetProductBySlugRequest.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T19:26:05.361Z",
-              "EditorCaption": ""
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Transactions\\Edit.razor",
+              "RelativeDocumentMoniker": "Dimadev.Web\\Pages\\Transactions\\Edit.razor",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Transactions\\Edit.razor",
+              "RelativeToolTip": "Dimadev.Web\\Pages\\Transactions\\Edit.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T19:10:24.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ExpensesByCategoryChart.razor",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Reports\\ExpensesByCategoryChart.razor",
-              "RelativeDocumentMoniker": "Dimadev.Web\\Components\\Reports\\ExpensesByCategoryChart.razor",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Reports\\ExpensesByCategoryChart.razor",
-              "RelativeToolTip": "Dimadev.Web\\Components\\Reports\\ExpensesByCategoryChart.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Checkout.razor",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Orders\\Checkout.razor",
+              "RelativeDocumentMoniker": "Dimadev.Web\\Pages\\Orders\\Checkout.razor",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Orders\\Checkout.razor",
+              "RelativeToolTip": "Dimadev.Web\\Pages\\Orders\\Checkout.razor",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-18T15:44:41.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T16:53:52.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Categories\\Create.razor",
+              "RelativeDocumentMoniker": "Dimadev.Web\\Pages\\Categories\\Create.razor",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Categories\\Create.razor",
+              "RelativeToolTip": "Dimadev.Web\\Pages\\Categories\\Create.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-06T15:56:14.078Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ReportHandler.cs",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Api\\Handlers\\ReportHandler.cs",
-              "RelativeDocumentMoniker": "Dimadev.Api\\Handlers\\ReportHandler.cs",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Api\\Handlers\\ReportHandler.cs",
-              "RelativeToolTip": "Dimadev.Api\\Handlers\\ReportHandler.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T17:07:56.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GetIncomesByCategoryEndpoint.cs",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Api\\Endpoints\\Reports\\GetIncomesByCategoryEndpoint.cs",
-              "RelativeDocumentMoniker": "Dimadev.Api\\Endpoints\\Reports\\GetIncomesByCategoryEndpoint.cs",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Api\\Endpoints\\Reports\\GetIncomesByCategoryEndpoint.cs",
-              "RelativeToolTip": "Dimadev.Api\\Endpoints\\Reports\\GetIncomesByCategoryEndpoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:26:52.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "GetExpensesByCategoryEndpoint.cs",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Api\\Endpoints\\Reports\\GetExpensesByCategoryEndpoint.cs",
-              "RelativeDocumentMoniker": "Dimadev.Api\\Endpoints\\Reports\\GetExpensesByCategoryEndpoint.cs",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Api\\Endpoints\\Reports\\GetExpensesByCategoryEndpoint.cs",
-              "RelativeToolTip": "Dimadev.Api\\Endpoints\\Reports\\GetExpensesByCategoryEndpoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:26:03.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TransactionHandler.cs",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Handlers\\TransactionHandler.cs",
-              "RelativeDocumentMoniker": "Dimadev.Web\\Handlers\\TransactionHandler.cs",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Handlers\\TransactionHandler.cs",
-              "RelativeToolTip": "Dimadev.Web\\Handlers\\TransactionHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:36:51.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IncomesByCategory.cs",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Core\\Models\\Reports\\IncomesByCategory.cs",
-              "RelativeDocumentMoniker": "Dimadev.Core\\Models\\Reports\\IncomesByCategory.cs",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Core\\Models\\Reports\\IncomesByCategory.cs",
-              "RelativeToolTip": "Dimadev.Core\\Models\\Reports\\IncomesByCategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T16:51:46.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ExpensesByCategory.cs",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Core\\Models\\Reports\\ExpensesByCategory.cs",
-              "RelativeDocumentMoniker": "Dimadev.Core\\Models\\Reports\\ExpensesByCategory.cs",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Core\\Models\\Reports\\ExpensesByCategory.cs",
-              "RelativeToolTip": "Dimadev.Core\\Models\\Reports\\ExpensesByCategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:56:06.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IncomesAndExpenses.cs",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Core\\Models\\Reports\\IncomesAndExpenses.cs",
-              "RelativeDocumentMoniker": "Dimadev.Core\\Models\\Reports\\IncomesAndExpenses.cs",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Core\\Models\\Reports\\IncomesAndExpenses.cs",
-              "RelativeToolTip": "Dimadev.Core\\Models\\Reports\\IncomesAndExpenses.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:57:43.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FinancialSummary.cs",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Core\\Models\\Reports\\FinancialSummary.cs",
-              "RelativeDocumentMoniker": "Dimadev.Core\\Models\\Reports\\FinancialSummary.cs",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Core\\Models\\Reports\\FinancialSummary.cs",
-              "RelativeToolTip": "Dimadev.Core\\Models\\Reports\\FinancialSummary.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:55:57.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "VoucherHandler.cs",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Handlers\\VoucherHandler.cs",
-              "RelativeDocumentMoniker": "Dimadev.Web\\Handlers\\VoucherHandler.cs",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Handlers\\VoucherHandler.cs",
-              "RelativeToolTip": "Dimadev.Web\\Handlers\\VoucherHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:36:52.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IncomesAndExpensesChart.razor",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Reports\\IncomesAndExpensesChart.razor",
-              "RelativeDocumentMoniker": "Dimadev.Web\\Components\\Reports\\IncomesAndExpensesChart.razor",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Reports\\IncomesAndExpensesChart.razor",
-              "RelativeToolTip": "Dimadev.Web\\Components\\Reports\\IncomesAndExpensesChart.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-18T15:37:57.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IncomesAndExpensesChart.razor.cs",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Reports\\IncomesAndExpensesChart.razor.cs",
-              "RelativeDocumentMoniker": "Dimadev.Web\\Components\\Reports\\IncomesAndExpensesChart.razor.cs",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Reports\\IncomesAndExpensesChart.razor.cs",
-              "RelativeToolTip": "Dimadev.Web\\Components\\Reports\\IncomesAndExpensesChart.razor.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:38:23.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IncomesByCategoryChart.razor.cs",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Reports\\IncomesByCategoryChart.razor.cs",
-              "RelativeDocumentMoniker": "Dimadev.Web\\Components\\Reports\\IncomesByCategoryChart.razor.cs",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Reports\\IncomesByCategoryChart.razor.cs",
-              "RelativeToolTip": "Dimadev.Web\\Components\\Reports\\IncomesByCategoryChart.razor.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:41:45.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
               "Title": "IncomesByCategoryChart.razor",
               "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Reports\\IncomesByCategoryChart.razor",
               "RelativeDocumentMoniker": "Dimadev.Web\\Components\\Reports\\IncomesByCategoryChart.razor",
@@ -532,12 +405,239 @@
               "RelativeToolTip": "Dimadev.Web\\Components\\Reports\\IncomesByCategoryChart.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-18T15:43:37.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T15:43:37.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IncomesByCategoryChart.razor.cs",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Reports\\IncomesByCategoryChart.razor.cs",
+              "RelativeDocumentMoniker": "Dimadev.Web\\Components\\Reports\\IncomesByCategoryChart.razor.cs",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Reports\\IncomesByCategoryChart.razor.cs",
+              "RelativeToolTip": "Dimadev.Web\\Components\\Reports\\IncomesByCategoryChart.razor.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:41:45.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GetFinancialSummaryEndpoint.cs",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Api\\Endpoints\\Reports\\GetFinancialSummaryEndpoint.cs",
+              "RelativeDocumentMoniker": "Dimadev.Api\\Endpoints\\Reports\\GetFinancialSummaryEndpoint.cs",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Api\\Endpoints\\Reports\\GetFinancialSummaryEndpoint.cs",
+              "RelativeToolTip": "Dimadev.Api\\Endpoints\\Reports\\GetFinancialSummaryEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:26:49.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IReportHandler.cs",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Core\\Handlers\\IReportHandler.cs",
+              "RelativeDocumentMoniker": "Dimadev.Core\\Handlers\\IReportHandler.cs",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Core\\Handlers\\IReportHandler.cs",
+              "RelativeToolTip": "Dimadev.Core\\Handlers\\IReportHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:32:10.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetIncomesAndExpensesEndpoint.cs",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Api\\Endpoints\\Reports\\GetIncomesAndExpensesEndpoint.cs",
+              "RelativeDocumentMoniker": "Dimadev.Api\\Endpoints\\Reports\\GetIncomesAndExpensesEndpoint.cs",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Api\\Endpoints\\Reports\\GetIncomesAndExpensesEndpoint.cs",
+              "RelativeToolTip": "Dimadev.Api\\Endpoints\\Reports\\GetIncomesAndExpensesEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:26:51.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductHandler.cs",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Handlers\\ProductHandler.cs",
+              "RelativeDocumentMoniker": "Dimadev.Web\\Handlers\\ProductHandler.cs",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Handlers\\ProductHandler.cs",
+              "RelativeToolTip": "Dimadev.Web\\Handlers\\ProductHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T16:43:07.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "List.razor",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Products\\List.razor",
+              "RelativeDocumentMoniker": "Dimadev.Web\\Pages\\Products\\List.razor",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Products\\List.razor",
+              "RelativeToolTip": "Dimadev.Web\\Pages\\Products\\List.razor",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T16:03:31.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetProductBySlugRequest.cs",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Core\\Requests\\Orders\\GetProductBySlugRequest.cs",
+              "RelativeDocumentMoniker": "Dimadev.Core\\Requests\\Orders\\GetProductBySlugRequest.cs",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Core\\Requests\\Orders\\GetProductBySlugRequest.cs",
+              "RelativeToolTip": "Dimadev.Core\\Requests\\Orders\\GetProductBySlugRequest.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T19:26:05.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ExpensesByCategoryChart.razor",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Reports\\ExpensesByCategoryChart.razor",
+              "RelativeDocumentMoniker": "Dimadev.Web\\Components\\Reports\\ExpensesByCategoryChart.razor",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Reports\\ExpensesByCategoryChart.razor",
+              "RelativeToolTip": "Dimadev.Web\\Components\\Reports\\ExpensesByCategoryChart.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T15:44:41.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ReportHandler.cs",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Api\\Handlers\\ReportHandler.cs",
+              "RelativeDocumentMoniker": "Dimadev.Api\\Handlers\\ReportHandler.cs",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Api\\Handlers\\ReportHandler.cs",
+              "RelativeToolTip": "Dimadev.Api\\Handlers\\ReportHandler.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T17:07:56.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetIncomesByCategoryEndpoint.cs",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Api\\Endpoints\\Reports\\GetIncomesByCategoryEndpoint.cs",
+              "RelativeDocumentMoniker": "Dimadev.Api\\Endpoints\\Reports\\GetIncomesByCategoryEndpoint.cs",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Api\\Endpoints\\Reports\\GetIncomesByCategoryEndpoint.cs",
+              "RelativeToolTip": "Dimadev.Api\\Endpoints\\Reports\\GetIncomesByCategoryEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:26:52.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GetExpensesByCategoryEndpoint.cs",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Api\\Endpoints\\Reports\\GetExpensesByCategoryEndpoint.cs",
+              "RelativeDocumentMoniker": "Dimadev.Api\\Endpoints\\Reports\\GetExpensesByCategoryEndpoint.cs",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Api\\Endpoints\\Reports\\GetExpensesByCategoryEndpoint.cs",
+              "RelativeToolTip": "Dimadev.Api\\Endpoints\\Reports\\GetExpensesByCategoryEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:26:03.499Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
+              "Title": "TransactionHandler.cs",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Handlers\\TransactionHandler.cs",
+              "RelativeDocumentMoniker": "Dimadev.Web\\Handlers\\TransactionHandler.cs",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Handlers\\TransactionHandler.cs",
+              "RelativeToolTip": "Dimadev.Web\\Handlers\\TransactionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:36:51.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IncomesByCategory.cs",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Core\\Models\\Reports\\IncomesByCategory.cs",
+              "RelativeDocumentMoniker": "Dimadev.Core\\Models\\Reports\\IncomesByCategory.cs",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Core\\Models\\Reports\\IncomesByCategory.cs",
+              "RelativeToolTip": "Dimadev.Core\\Models\\Reports\\IncomesByCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T16:51:46.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ExpensesByCategory.cs",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Core\\Models\\Reports\\ExpensesByCategory.cs",
+              "RelativeDocumentMoniker": "Dimadev.Core\\Models\\Reports\\ExpensesByCategory.cs",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Core\\Models\\Reports\\ExpensesByCategory.cs",
+              "RelativeToolTip": "Dimadev.Core\\Models\\Reports\\ExpensesByCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:56:06.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IncomesAndExpenses.cs",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Core\\Models\\Reports\\IncomesAndExpenses.cs",
+              "RelativeDocumentMoniker": "Dimadev.Core\\Models\\Reports\\IncomesAndExpenses.cs",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Core\\Models\\Reports\\IncomesAndExpenses.cs",
+              "RelativeToolTip": "Dimadev.Core\\Models\\Reports\\IncomesAndExpenses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:57:43.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FinancialSummary.cs",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Core\\Models\\Reports\\FinancialSummary.cs",
+              "RelativeDocumentMoniker": "Dimadev.Core\\Models\\Reports\\FinancialSummary.cs",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Core\\Models\\Reports\\FinancialSummary.cs",
+              "RelativeToolTip": "Dimadev.Core\\Models\\Reports\\FinancialSummary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:55:57.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "VoucherHandler.cs",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Handlers\\VoucherHandler.cs",
+              "RelativeDocumentMoniker": "Dimadev.Web\\Handlers\\VoucherHandler.cs",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Handlers\\VoucherHandler.cs",
+              "RelativeToolTip": "Dimadev.Web\\Handlers\\VoucherHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:36:52.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IncomesAndExpensesChart.razor",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Reports\\IncomesAndExpensesChart.razor",
+              "RelativeDocumentMoniker": "Dimadev.Web\\Components\\Reports\\IncomesAndExpensesChart.razor",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Reports\\IncomesAndExpensesChart.razor",
+              "RelativeToolTip": "Dimadev.Web\\Components\\Reports\\IncomesAndExpensesChart.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T15:37:57.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IncomesAndExpensesChart.razor.cs",
+              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Reports\\IncomesAndExpensesChart.razor.cs",
+              "RelativeDocumentMoniker": "Dimadev.Web\\Components\\Reports\\IncomesAndExpensesChart.razor.cs",
+              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\Reports\\IncomesAndExpensesChart.razor.cs",
+              "RelativeToolTip": "Dimadev.Web\\Components\\Reports\\IncomesAndExpensesChart.razor.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:38:23.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "List.razor.cs",
               "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Products\\List.razor.cs",
               "RelativeDocumentMoniker": "Dimadev.Web\\Pages\\Products\\List.razor.cs",
@@ -549,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Components\\NavMenu.razor",
               "RelativeDocumentMoniker": "Dimadev.Web\\Components\\NavMenu.razor",
@@ -561,7 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 38,
               "Title": "CookieAuthenticationStateProvider.cs",
               "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Security (Cookies)\\CookieAuthenticationStateProvider.cs",
               "RelativeDocumentMoniker": "Dimadev.Web\\Security (Cookies)\\CookieAuthenticationStateProvider.cs",
@@ -573,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Dimadev.Web\\Layout\\MainLayout.razor",
@@ -585,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 39,
               "Title": "RefundOrderRequest.cs",
               "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Core\\Requests\\Orders\\RefundOrderRequest.cs",
               "RelativeDocumentMoniker": "Dimadev.Core\\Requests\\Orders\\RefundOrderRequest.cs",
@@ -597,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 40,
               "Title": "GetOrderByNumberRequest.cs",
               "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Core\\Requests\\Orders\\GetOrderByNumberRequest.cs",
               "RelativeDocumentMoniker": "Dimadev.Core\\Requests\\Orders\\GetOrderByNumberRequest.cs",
@@ -609,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 41,
               "Title": "CreateOrderRequest.cs",
               "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Core\\Requests\\Orders\\CreateOrderRequest.cs",
               "RelativeDocumentMoniker": "Dimadev.Core\\Requests\\Orders\\CreateOrderRequest.cs",
@@ -621,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 42,
               "Title": "GetAllOrdersRequest.cs",
               "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Core\\Requests\\Orders\\GetAllOrdersRequest.cs",
               "RelativeDocumentMoniker": "Dimadev.Core\\Requests\\Orders\\GetAllOrdersRequest.cs",
@@ -633,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 43,
               "Title": "GetAllProductsRequest.cs",
               "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Core\\Requests\\Orders\\GetAllProductsRequest.cs",
               "RelativeDocumentMoniker": "Dimadev.Core\\Requests\\Orders\\GetAllProductsRequest.cs",
@@ -645,7 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 44,
               "Title": "CancelOrderRequest.cs",
               "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Core\\Requests\\Orders\\CancelOrderRequest.cs",
               "RelativeDocumentMoniker": "Dimadev.Core\\Requests\\Orders\\CancelOrderRequest.cs",
@@ -657,7 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 45,
               "Title": "PayOrderRequest.cs",
               "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Core\\Requests\\Orders\\PayOrderRequest.cs",
               "RelativeDocumentMoniker": "Dimadev.Core\\Requests\\Orders\\PayOrderRequest.cs",
@@ -666,30 +766,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-09T19:27:38.107Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\_Imports.razor",
-              "RelativeDocumentMoniker": "Dimadev.Web\\_Imports.razor",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\_Imports.razor",
-              "RelativeToolTip": "Dimadev.Web\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-09T17:55:38.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Create.razor",
-              "DocumentMoniker": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Categories\\Create.razor",
-              "RelativeDocumentMoniker": "Dimadev.Web\\Pages\\Categories\\Create.razor",
-              "ToolTip": "C:\\dev\\dimadev\\Dimadev.Web\\Pages\\Categories\\Create.razor",
-              "RelativeToolTip": "Dimadev.Web\\Pages\\Categories\\Create.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-06T15:56:14.078Z"
             }
           ]
         }

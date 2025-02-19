@@ -5,21 +5,27 @@
 {
     <h1>Detalhes do Pedido</h1>
     <br>
+
     <h4>Número do Pedido</h4>
     <p>@Order.Number</p>
     <br>
+
     <h4>Data do Pedido</h4>
     <p>@Order.CreatedAt.ToString("dd/MM.yyyy")</p>
     <br>
+
     <h4>Última Atualização</h4>
     <p>@Order.UpdatedAt.ToString("dd/MM/yyyy")</p>
     <br>
+
     <h4>Produto</h4>
     <p>@Order.Product.Title</p>
     <br>
+
     <h4>Valor do Produto</h4>
     <p>@Order.Product.Price.ToString("C")</p>
     <br>
+
     <h4>Desconto</h4>
     <p>@(Order.Voucher is null ? "Nao aplicado" : Order.Voucher.Amount.ToString("C"))</p>
     <br>
@@ -29,14 +35,16 @@
     <br>
 
     <h4>Situaçao</h4>
-    <p>--</p>
+    <OrderStatus Status="Order.Status"/>
     <br>
     <br>
     <br>
     <br>
 
-    <p>AÇOES</p>
-}
+    <CascadingValue Value="this">
+        <OrderAction Order="Order"/>
+        </CascadingValue>
+    }
 else
 {
     <MudSkeleton Animation="Animation.Wave"/>

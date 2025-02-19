@@ -1,0 +1,24 @@
+﻿@inherits OrderStatusComponent
+
+@switch(Status)
+{
+    case Core.Enums.EOrderStatus.Paid:
+    <MudChip Color="Color.Success">PAGO</MudChip>
+    break;
+
+    case Core.Enums.EOrderStatus.Canceled:
+    <MudChip Color="Color.Error">CANCELADO</MudChip>
+    break;
+
+    case Core.Enums.EOrderStatus.Refunded:
+    <MudChip Color="Color.Info">ESTORNADO</MudChip>
+    break;
+
+    case Core.Enums.EOrderStatus.WaitingPayment:
+    <MudChip Color="Color.Warning">AGUARDANDO PAGAMENTO</MudChip>
+    break;
+
+    default:
+    <MudChip Color="Color.Info">STATUS NAO DEFINIDO</MudChip>
+    break;
+}

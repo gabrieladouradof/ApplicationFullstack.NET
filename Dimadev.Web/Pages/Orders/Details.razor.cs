@@ -8,6 +8,7 @@ namespace Dimadev.Web.Pages.Orders
 {
     public class DetailsPage : ComponentBase
     {
+
         #region Parameters
 
         [Parameter] public string Number { get; set; } = string.Empty;
@@ -42,6 +43,14 @@ namespace Dimadev.Web.Pages.Orders
                 Order = result.Data!;
             else
                 Snackbar.Add(result.Message, Severity.Error);
+        }
+        #endregion
+
+        #region Methods
+        public void RefreshState(Order order)
+        {
+            Order = order;
+            StateHasChanged();
         }
         #endregion
 

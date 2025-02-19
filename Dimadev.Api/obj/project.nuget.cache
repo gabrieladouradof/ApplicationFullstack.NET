@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C0qneW+K7lE=",
+  "dgSpecHash": "qzbVmGnKW+8=",
   "success": true,
-  "projectFilePath": "C:\\dev\\dimadev\\dimadev.api\\Dimadev.Api.csproj",
+  "projectFilePath": "C:\\dev\\dimadev\\Dimadev.api\\Dimadev.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GabrielaDourado\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\GabrielaDourado\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",
